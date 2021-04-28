@@ -10,7 +10,6 @@ This webpage displays a few projects that were developed to display different el
 
 ## Preview
 
-
 ![Preview](./public/Assets/Images/preview.png)
 
 [LiveLink] (https://jjg1488.github.io/portfolio/)
