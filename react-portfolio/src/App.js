@@ -8,13 +8,14 @@ import Home from "./components/pages/Home";
 import About from "./components/pages/About";
 import Portfolio from "./components/pages/Portfolio";
 import Contact from "./components/pages/Contact";
+// import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 
 function App() {
   return (
     <Wrapper>
-      <Router basename="/portfolio">
+      <Router>
         <NavTabs />
         <Header />
         <Route exact path="/Home" component={Home} />

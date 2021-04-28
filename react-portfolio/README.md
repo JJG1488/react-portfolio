@@ -1,70 +1,68 @@
-# Getting Started with Create React App
+# react-portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+---
 
-## Available Scripts
+## Description
 
-In the project directory, you can run:
+This webpage displays a few projects that were developed to display different elements of web development.
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Preview
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `npm test`
+![Preview](./Assets/Images/preview.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+[LiveLink] (https://jjg1488.github.io/portfolio/)
 
-### `npm run build`
+--
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Developers
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+James J. Gault
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## Technologies
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+1. HTML
+2. CSS
+3. Bootstrap
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Foresight
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+This portfolio was designed to show some of the work and features that I can implement. I will continue to upload projects that display my work.
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Incentive
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+The motivation behind this portfolio is to display work/ features while they are fresh.
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Challenges
 
-### Analyzing the Bundle Size
+Building a responsive layout using a frameworks' grid system (Bootstrap in this case) can be challenging. The main challenge can be trying to get the browser to display content exactly where you want it to show. Going through the documentation helps and great deal.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+## Reasoning
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+This project was built as a means to show competence in responsive layout design and mobile-first application development.
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Solution
 
-### Deployment
+If websites are not up to date with responsive web design, a second website may be needed in order to have to content render on different devices properly. Having a responsive mobile-first application will help to save on extra costs when it comes to development with just this alone. Responsive web applications help end users to use the web page more effectively with their desired screen size and device.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+---
 
-### `npm run build` fails to minify
+## Take away
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Mobile-first, responsive web design is important. There is nothing more unattractive to an end user than to see a poorly displayed web page that has their interest. Along side of having an eye sore, poorly built websites that do not render properly on different devices can bring about suspicion of brand authenticity and push a potential client or reader of your content away.
+
+---
