@@ -19,7 +19,7 @@ const Portfolio = () => (
 
           <img src="./Assets/Images/travel-logger.png" alt="travel-logger-application" className="img-fluid" />
 
-          <p>Have you every gone to a new location and had no idea of what indoor/ outdoor activities were around you? Well look no further, the travel logger application is here to assist you. Your own personal activity logger.</p>
+          <p>Have you ever gone to a new location and had no idea of what indoor or outdoor activities were around you? Well look no further, the travel logger application is here to assist you. Your own personal activity logger.</p>
 
           <a href="https://hidden-waters-17740.herokuapp.com/">Click Here To See!</a>
 
