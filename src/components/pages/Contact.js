@@ -33,7 +33,7 @@ const Contact = () => (
 
         <br/>
 
-        <a href="https://1drv.ms/w/s!AhUoiYry11tJgUss8QE8mneiNqvk" rel="noreferrer" target="_blank">Open PDF File <i className="fa fa-download" aria-hidden="true"></i></a>
+        <a href="https://1drv.ms/w/s!AhUoiYry11tJgUss8QE8mneiNqvk" rel="noreferrer" target="_blank">Open Resume in a PDF File <i className="fa fa-download" aria-hidden="true"></i></a>
 
         <br/>
 
