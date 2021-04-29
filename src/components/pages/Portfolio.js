@@ -45,7 +45,7 @@ const Portfolio = () => (
 
           <img src="./Assets/Images/find-your-movie.png" alt="find-your-movie-site" className="img-fluid" />
 
-          <p>Have you ever search for a movie and had to switch movie platforms to find it? Well, this website solves that
+          <p>Have you ever searched for a movie and had to switch movie platforms to find it? Well, this website solves that
           problem!</p>
 
           <a href="https://jjg1488.github.io/find-your-movie/">Click Here To See!</a>
@@ -58,7 +58,7 @@ const Portfolio = () => (
 
           <img src="./Assets/Images/workday-scheduler copy.png" alt="workday-scheduler" className="img-fluid" />
 
-          <p>This webpage displays a workday scheduler that can save the event or task to local storage. User input data
+          <p>This webpage displays a workday scheduler that can save an event or task to local storage. User input data
           can be used for myriad of things.</p>
 
           <a href="https://jjg1488.github.io/work-day-scheduler/">Click Here To See!</a>
