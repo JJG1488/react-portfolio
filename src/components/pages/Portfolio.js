@@ -31,7 +31,7 @@ const Portfolio = () => (
 
           <img src="./Assets/Images/wannaBurger.png" alt="burger-app" className="img-fluid" />
 
-          <p>The application uses a database to store the information that the user enters. The user is able to add a item
+          <p>This application uses a database to store information that users enter. The user is able to add a item
           to whichever side of the application that the user decides, and based on the side selected, the information is
           stored in the databases' table and displayed to the appropriate column or area.</p>
 
