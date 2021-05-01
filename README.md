@@ -11,7 +11,7 @@ This webpage displays a few projects that were developed to display different el
 
 ## Preview
 
-![Preview](./public/Assets/Images/preview.png)
+![preview](https://user-images.githubusercontent.com/74686199/116786435-96e96480-aa6c-11eb-855c-e6e6b1145510.png)
 
 [LiveLink] (https://jjg1488.github.io/portfolio/)
 
