@@ -19,7 +19,7 @@ const Portfolio = () => (
 
           <img src="./Assets/Images/travel-logger.png" alt="travel-logger-application" className="img-fluid" />
 
-          <p>Have you ever gone to a new location and had no idea of what indoor or outdoor activities were around you? Well look no further, the travel logger application is here to assist you. Your own personal activity logger.</p>
+          <p>Have you every gone to a new location and had no idea of what indoor/ outdoor activities were around you? Well look no further, the travel logger application is here to assist you. Your own personal activity logger.</p>
 
           <a href="https://hidden-waters-17740.herokuapp.com/">Click Here To See!</a>
 
@@ -31,7 +31,7 @@ const Portfolio = () => (
 
           <img src="./Assets/Images/wannaBurger.png" alt="burger-app" className="img-fluid" />
 
-          <p>This application uses a database to store information that users enter. The user is able to add a item
+          <p>The application uses a database to store the information that the user enters. The user is able to add a item
           to whichever side of the application that the user decides, and based on the side selected, the information is
           stored in the databases' table and displayed to the appropriate column or area.</p>
 
@@ -45,7 +45,7 @@ const Portfolio = () => (
 
           <img src="./Assets/Images/find-your-movie.png" alt="find-your-movie-site" className="img-fluid" />
 
-          <p>Have you ever searched for a movie and had to switch movie platforms to find it? Well, this website solves that
+          <p>Have you ever search for a movie and had to switch movie platforms to find it? Well, this website solves that
           problem!</p>
 
           <a href="https://jjg1488.github.io/find-your-movie/">Click Here To See!</a>
@@ -58,7 +58,7 @@ const Portfolio = () => (
 
           <img src="./Assets/Images/workday-scheduler copy.png" alt="workday-scheduler" className="img-fluid" />
 
-          <p>This webpage displays a workday scheduler that can save an event or task to local storage. User input data
+          <p>This webpage displays a workday scheduler that can save the event or task to local storage. User input data
           can be used for myriad of things.</p>
 
           <a href="https://jjg1488.github.io/work-day-scheduler/">Click Here To See!</a>
