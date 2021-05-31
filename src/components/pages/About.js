@@ -9,6 +9,8 @@ const mainContainer = {
   boxShadow: "10px 10px 5px black",
   maxWidth: "100%",
   minHeight: "40rem",
+  maxHeight: "40rem",
+  overflow: "scroll",
 
 }
 
@@ -16,7 +18,7 @@ const mainContainer = {
 
 const About = () => (
   <div>
-    <h1>About Page</h1>
+    <h1 style={{textShadow: "-6px 2px 2px #1C6EA4"}}>About Page</h1>
   
     <Card style={{width: '50%', borderRadius: '25px', boxShadow: "10px 10px 5px black", border: "solid", float: "left", minHeight: "40rem" }}>
       <Card.Img variant="top" src={electricMan} style={{ borderRadius: "25px", height: "38rem", width: "100%", minHeight: "40rem" }} />
@@ -25,7 +27,7 @@ const About = () => (
 
     <Card style={mainContainer}>
       <Card.Body>
-        <Card.Text style={{ textAlign: "center" }}>
+        <Card.Text style={{ textAlign: "center", overflow: "hidden", textShadow: "-6px 2px 2px #1C6EA4"}}>
 
         <p>
 
