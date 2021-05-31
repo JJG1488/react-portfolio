@@ -1,30 +1,33 @@
 import React from "react";
+import { Card } from "react-bootstrap";
+import electricMan from "../data/Assets/Images/electric-man.PNG";
+
+const mainContainer = {
+  backgroundColor: "grey",
+  borderRadius: "25px",
+  border: "solid",
+  boxShadow: "10px 10px 5px black",
+  maxWidth: "100%",
+  minHeight: "40rem",
+
+}
+
+
 
 const About = () => (
   <div>
     <h1>About Page</h1>
-    {/* <p>
-      Nunc pharetra finibus est at efficitur. Praesent sed congue diam. Integer gravida dui mauris,
-      ut interdum nunc egestas sed. Aenean sed mollis diam. Nunc aliquet risus ac finibus porta. Nam
-      quis arcu non lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-      imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus in. Sed rhoncus mollis
-      diam, sit amet facilisis lectus blandit at.
-    </p> */}
+  
+    <Card style={{width: '50%', borderRadius: '25px', boxShadow: "10px 10px 5px black", border: "solid", float: "left", minHeight: "40rem" }}>
+      <Card.Img variant="top" src={electricMan} style={{ borderRadius: "25px", height: "38rem", width: "100%", minHeight: "40rem" }} />
+  
+    </Card>
 
+    <Card style={mainContainer}>
+      <Card.Body>
+        <Card.Text style={{ textAlign: "center" }}>
 
-    <div className="container">
-
-
-        <div className="row">
-
-            <div className="col-xs-12">
-
-    
-
-                <img src="./Assets/Images/electric-man.PNG" alt="electrician" id="dev-photo" />
-
-
-                <p>
+        <p>
 
                     I wear many hats in my everyday life. Whether its engineering a company's network, doing electrical
                     work for security systems, working wood
@@ -59,21 +62,12 @@ const About = () => (
                     up with ways to bring them to life.
 
                 </p>
+         
+    </Card.Text>
 
-                <hr/>
+      </Card.Body>
+    </Card>
 
-            </div>
-
-            <hr/>
-
-            
-
-            <hr/>
-
-        </div>
-
-    
-    </div>
   </div>
 );
 
