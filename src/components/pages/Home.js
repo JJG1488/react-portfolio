@@ -15,7 +15,7 @@ const mainContainer = {
 const Home = () => (
   <div>
 
-    <h1>Home Page</h1>
+    <h1>Thank You/ Home Page</h1>
 
     <div>
 
