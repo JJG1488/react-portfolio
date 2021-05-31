@@ -1,18 +1,18 @@
 import React from "react";
+import { Card } from "react-bootstrap";
+
 
 const Contact = () => (
   <div>
-    <h1>Contact Page</h1>
+    <h1 style={{textShadow: "6px 1px 1px #1C6EA4"}}>Contact Page</h1>
 
-    <hr/>
+    <Card style={{width: '50%', borderRadius: '25px', boxShadow: "10px 10px 5px black", border: "solid", marginLeft: "auto", marginRight: "auto", backgroundColor: "grey"}}>
+      {/* <Card.Img variant="top" style={{ borderRadius: "25px", height: "38rem", width: "100%", minHeight: "40rem" }} /> */}
 
-<div className="container">
+      <Card.Body>
+        <Card.Text style={{ textAlign: "left", textShadow: "1px 1px 1px #1C6EA4" }}>
 
-  <div className="row">
-
-    <div className="contact-col">
-
-      <p id="contact-info">
+        <p id="contact-info">
 
         Name: James J. Gault
 
@@ -40,14 +40,15 @@ const Contact = () => (
         Phone: 586-229-6418
 
       </p>
+          
+    </Card.Text>
 
-      <hr/>
+      </Card.Body>
 
-    </div>
+      
+  
+    </Card>
 
-  </div>
-
-</div>
   </div>
 );
 
