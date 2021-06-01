@@ -18,8 +18,8 @@ const About = () => (
   <div>
     <h1 style={{ textShadow: "-6px 2px 2px #1C6EA4" }}>About Page</h1>
 
-    <Card style={{ width: '49%', borderRadius: '25px', boxShadow: "10px 10px 5px black", border: "solid", float: "left", minHeight: "40rem", marginRight: "2%", marginBottom: "1%" }}>
-      <Card.Img variant="top" src={electricMan} style={{ borderRadius: "25px", height: "38rem", width: "100%", minHeight: "40rem" }} />
+    <Card style={{ width: '49%', borderRadius: '25px', boxShadow: "10px 10px 5px black", border: "solid", float: "left",  minHeight: "40rem", maxHeight: "40rem", marginRight: "2%", marginBottom: "1%" }}>
+      <Card.Img variant="top" src={electricMan} style={{ borderRadius: "25px", height: "38rem", width: "100%",  minHeight: "40rem", maxHeight: "40rem" }} />
     </Card>
     <Card style={mainContainer}>
       <Card.Body>
@@ -35,8 +35,8 @@ const About = () => (
             in control of the creative process. I love being creative and being able to express my creativity
             even more. I am infatuated with the "click" moments that you get when things begin to
             sink in and make sense. So naturally, I picked up every book that I could about coding and began to
-            read them.
-            There was this idea that I could build my own applications and submit them to the world to see that
+            read.
+            There was this idea that I could build my own applications and submit them for the world to see that
             became
             a source for my drive to learn more about coding. Then I realized that this is a skill that can be
             passed along, and
