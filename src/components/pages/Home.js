@@ -9,6 +9,7 @@ const mainContainer = {
   boxShadow: "10px 10px 5px black",
   maxWidth: "49%",
   minHeight: "40rem",
+  maxHeight: "40rem"
 
 }
 
@@ -18,7 +19,7 @@ const Home = () => (
     <h1 style={{textShadow: "-6px 2px 2px #1C6EA4"}}>Thank You/ Home Page</h1>
     <div>
     <Card style={{width: '49%', borderRadius: '25px', boxShadow: "10px 10px 5px black", border: "solid", float: "left", minHeight: "40rem", marginRight: "2%", marginBottom: "1%" }}>
-      <Card.Img variant="top" src={readingImage} style={{ borderRadius: "25px", height: "38rem", width: "100%", minHeight: "40rem" }} />
+      <Card.Img variant="top" src={readingImage} style={{ borderRadius: "25px", height: "38rem", width: "100%", minHeight: "40rem", maxHeight: "40rem" }} />
     </Card>
     <Card style={mainContainer}>
       <Card.Body>

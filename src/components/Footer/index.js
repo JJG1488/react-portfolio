@@ -6,8 +6,7 @@ function Footer() {
 
     <footer className="text-center fixed-bottom">
 
-        {/* <span class="copyright">2021 Copyright</span> */}
-        <span className="copyright">CopyRight { new Date().getFullYear() }</span>
+        <small><span className="copyright">{ new Date().getFullYear() } CopyRight James Gault</span></small>
 
     </footer>
   
