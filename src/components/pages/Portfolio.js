@@ -22,55 +22,56 @@ import websiteAccessibility from "../data/Assets/Images/website-accessibility.pn
 
 const Portfolio = () => (
   <div>
-    <h1>Portfolio Page</h1>
 
-    <Card style={{ backgroundColor: "grey", width: '50%', borderRadius: '25px', boxShadow: "10px 10px 5px black", border: "solid", float: "left", maxHeight: "30rem", minHeight: "35rem", overflow: "auto"}}>
+    <h1 style={{textShadow: "6px 2px 2px #1C6EA4"}}>Portfolio Page</h1>
+
+    <Card style={{ backgroundColor: "grey", width: '49%', borderRadius: '25px', boxShadow: "10px 10px 5px black", border: "solid", float: "left", maxHeight: "30rem", minHeight: "35rem", overflow: "auto", marginRight: "2%", marginBottom: "1%"}}>
     <Card.Body>
       <Card.Img variant="top" src={travelLogger} style={{ borderRadius: "25px", height: "38rem", width: "100%", maxHeight: "20rem" }} />
       <Card.Text style={{ marginTop: "2%", textAlign: "center", overflow: "hidden", textShadow: "1px 2px 2px #1C6EA4" }}>
       <a href="https://hidden-waters-17740.herokuapp.com/">Click Here To See!</a>
           <p>
-          Have you every gone to a new location and had no idea of what indoor/ outdoor activities were around you? Well look no further, the travel logger application is here to assist you. Your own personal activity logger.
+          Have you ever gone to a new location and had no idea of what indoor/ outdoor activities were around you? Well look no further, the travel logger application is here to assist you. Your own personal activity logger.
           </p>
         </Card.Text>
         </Card.Body>
     </Card>
 
-    <Card style={{ backgroundColor: "grey", width: '50%', borderRadius: '25px', boxShadow: "10px 10px 5px black", border: "solid", float: "left", maxHeight: "30rem", minHeight: "35rem", overflow: "auto" }}>
+    <Card style={{ backgroundColor: "grey", width: '49%', borderRadius: '25px', boxShadow: "10px 10px 5px black", border: "solid", float: "left", maxHeight: "30rem", minHeight: "35rem", overflow: "auto",  }}>
     <Card.Body>
       <Card.Img variant="top" src={wannaBurger} style={{ borderRadius: "25px", height: "38rem", width: "100%", maxHeight: "20rem" }} />
       <Card.Text style={{ marginTop: "2%", textAlign: "center", overflow: "hidden", textShadow: "1px 2px 2px #1C6EA4" }}>
       <a href="https://damp-castle-88848.herokuapp.com/">Click Here To See!</a>
-          <p>The application uses a database to store the information that the user enters. The user is able to add a item
+          <p>This application uses a database to store the information that the user enters. The user is able to add a item
           to whichever side of the application that the user decides, and based on the side selected, the information is
-          stored in the databases' table and displayed to the appropriate column or area.</p>
+          stored in the database table and displayed to the appropriate column.</p>
         </Card.Text>
         </Card.Body>
     </Card>
 
-    <Card style={{ backgroundColor: "grey", width: '50%', borderRadius: '25px', boxShadow: "10px 10px 5px black", border: "solid", float: "left", maxHeight: "30rem", minHeight: "35rem", overflow: "auto" }}>
+    <Card style={{ backgroundColor: "grey", width: '49%', borderRadius: '25px', boxShadow: "10px 10px 5px black", border: "solid", float: "left", maxHeight: "30rem", minHeight: "35rem", overflow: "auto", marginRight: "2%", marginBottom: "1%" }}>
     <Card.Body>
       <Card.Img variant="top" src={findYourMovie} style={{ borderRadius: "25px", height: "38rem", width: "100%", maxHeight: "20rem" }} />
       <Card.Text style={{ marginTop: "2%", textAlign: "center", overflow: "hidden", textShadow: "1px 2px 2px #1C6EA4" }}>
       <a href="https://jjg1488.github.io/find-your-movie/">Click Here To See!</a>
-      <p>Have you ever search for a movie and had to switch movie platforms to find it? Well, this website solves that
+      <p>Have you ever searched for a movie and had to switch movie platforms to find it? Well, this website solves that
           problem!</p>
         </Card.Text>
         </Card.Body>
     </Card>
 
-    <Card style={{ backgroundColor: "grey", width: '50%', borderRadius: '25px', boxShadow: "10px 10px 5px black", border: "solid", float: "left", maxHeight: "30rem", minHeight: "35rem", overflow: "auto" }}>
+    <Card style={{ backgroundColor: "grey", width: '49%', borderRadius: '25px', boxShadow: "10px 10px 5px black", border: "solid", float: "left", maxHeight: "30rem", minHeight: "35rem", overflow: "auto" }}>
     <Card.Body>
       <Card.Img variant="top" src={workdayScheduler} style={{ borderRadius: "25px", height: "38rem", width: "100%", maxHeight: "20rem" }} />
       <Card.Text style={{ marginTop: "2%", textAlign: "center", overflow: "hidden", textShadow: "1px 2px 2px #1C6EA4" }}>
       <a href="https://jjg1488.github.io/work-day-scheduler/">Click Here To See!</a>
       <p>This webpage displays a workday scheduler that can save the event or task to local storage. User input data
-          can be used for myriad of things.</p>
+          can be used for myriad of things and used later.</p>
         </Card.Text>
         </Card.Body>
     </Card>
 
-    <Card style={{ backgroundColor: "grey", width: '50%', borderRadius: '25px', boxShadow: "10px 10px 5px black", border: "solid", float: "left", maxHeight: "30rem", minHeight: "35rem", overflow: "auto" }}>
+    <Card style={{ backgroundColor: "grey", width: '49%', borderRadius: '25px', boxShadow: "10px 10px 5px black", border: "solid", float: "left", maxHeight: "30rem", minHeight: "35rem", overflow: "auto", marginRight: "2%", marginBottom: "1%" }}>
     <Card.Body>
       <Card.Img variant="top" src={weatherDashboard} style={{ borderRadius: "25px", height: "38rem", width: "100%", maxHeight: "20rem" }} />
       <Card.Text style={{ marginTop: "2%", textAlign: "center", overflow: "hidden", textShadow: "1px 2px 2px #1C6EA4" }}>
@@ -80,7 +81,7 @@ const Portfolio = () => (
         </Card.Body>
     </Card>
 
-    <Card style={{ backgroundColor: "grey", width: '50%', borderRadius: '25px', boxShadow: "10px 10px 5px black", border: "solid", float: "left", maxHeight: "30rem", minHeight: "35rem", overflow: "auto" }}>
+    <Card style={{ backgroundColor: "grey", width: '49%', borderRadius: '25px', boxShadow: "10px 10px 5px black", border: "solid", float: "left", maxHeight: "30rem", minHeight: "35rem", overflow: "auto" }}>
     <Card.Body>
       <Card.Img variant="top" src={passwordGen} style={{ borderRadius: "25px", height: "38rem", width: "100%", maxHeight: "20rem" }} />
       <Card.Text style={{ marginTop: "2%", textAlign: "center", overflow: "hidden", textShadow: "1px 2px 2px #1C6EA4" }}>
@@ -91,12 +92,12 @@ const Portfolio = () => (
         </Card.Body>
     </Card>
 
-    <Card style={{ backgroundColor: "grey", width: '50%', borderRadius: '25px', boxShadow: "10px 10px 5px black", border: "solid", float: "left", maxHeight: "30rem", minHeight: "35rem", overflow: "auto" }}>
+    <Card style={{ backgroundColor: "grey", width: '49%', borderRadius: '25px', boxShadow: "10px 10px 5px black", border: "solid", float: "left", maxHeight: "30rem", minHeight: "35rem", overflow: "auto", marginRight: "2%", marginBottom: "1%" }}>
     <Card.Body>
       <Card.Img variant="top" src={websiteAccessibility} style={{ borderRadius: "25px", height: "38rem", width: "100%", maxHeight: "20rem" }} />
       <Card.Text style={{ marginTop: "2%", textAlign: "center", overflow: "hidden", textShadow: "1px 2px 2px #1C6EA4" }}>
       <a href="https://jjg1488.github.io/web-accessibility-website/">Click Here To See!</a>
-      <p>Website code displays proper structure of a webpage.</p>
+      <p>This website displays proper structure of a webpage.</p>
         </Card.Text>
         </Card.Body>
     </Card>

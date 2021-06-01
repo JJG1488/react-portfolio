@@ -11,7 +11,6 @@ const Contact = () => (
 
       <Card.Body>
         <Card.Text style={{ textAlign: "left", textShadow: "1px 1px 1px #1C6EA4" }}>
-
         <p id="contact-info">
 
         Name: James J. Gault
@@ -42,11 +41,7 @@ const Contact = () => (
       </p>
           
     </Card.Text>
-
       </Card.Body>
-
-      
-  
     </Card>
 
   </div>
