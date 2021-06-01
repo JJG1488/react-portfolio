@@ -17,22 +17,22 @@ const Contact = () => (
 
         <br/>
 
-        Email: jamesgault1488@gmail.com
+        Email: 
+        <a href="mailto:jamesgault1488@gmail.com=My custom mail body">  jamesgault1488@gmail.com</a>
 
         <br/>
-        
-        <a href="https://www.linkedin.com/in/jamesgault1488"> LinkedIn: <i className="fa fa-linkedin"
+        <a href="https://www.linkedin.com/in/jamesgault1488">  LinkedIn:  <i className="fa fa-linkedin"
             aria-hidden="true"></i></a>
 
         <br/>
-        <a href="https://github.com/JJG1488"> GitHub: <i className="fa fa-github" aria-hidden="true"></i></a>
+        <a href="https://github.com/JJG1488">  GitHub:  <i className="fa fa-github" aria-hidden="true"></i></a>
 
         <br/>
-        <a href="https://twitter.com/JamesJGault"> Twitter: <i className="fa fa-twitter-square" aria-hidden="true"></i></a>
+        <a href="https://twitter.com/JamesJGault">  Twitter:  <i className="fa fa-twitter-square" aria-hidden="true"></i></a>
 
         <br/>
 
-        <a href="https://1drv.ms/w/s!AhUoiYry11tJgUss8QE8mneiNqvk" rel="noreferrer" target="_blank">Open Resume in a PDF File <i className="fa fa-download" aria-hidden="true"></i></a>
+        <a href="https://1drv.ms/w/s!AhUoiYry11tJgUss8QE8mneiNqvk" rel="noreferrer" target="_blank">Open Resume in a PDF File   <i className="fa fa-download" aria-hidden="true"></i></a>
 
         <br/>
 
