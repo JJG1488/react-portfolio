@@ -14,7 +14,7 @@ import Contact from "./components/pages/Contact";
 function App() {
   return (
     <Wrapper>
-    <Router>
+    <Router basename="/">
         <NavTabs />
         <Header />
         <Switch>
@@ -31,3 +31,4 @@ function App() {
 }
 
 export default App;
+
