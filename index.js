@@ -1,1 +1,1 @@
-console.log("This fixed a problem that I was having... Dont like errors")
+console.log("This fixed a problem that I was having... Don't like errors")
