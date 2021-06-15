@@ -13,8 +13,9 @@ import Contact from "./components/pages/Contact";
 
 function App() {
   return (
+    <Router basename="/">
     <Wrapper>
-    <Router>
+   
         <NavTabs />
         <Header />
         <Switch>
@@ -25,9 +26,11 @@ function App() {
         <Route exact path="/contact" component={Contact} />
         </Switch>
         <Footer />
-</Router>
+
     </Wrapper>
+    </Router>
   );
 }
 
 export default App;
+

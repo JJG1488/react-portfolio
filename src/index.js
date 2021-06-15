@@ -3,12 +3,9 @@ import ReactDOM from "react-dom";
 import App from "./App";
 import "./index.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import {HashRouter as Router} from "react-router-dom";
+// import {HashRouter as Router} from "react-router-dom";
 
 
 ReactDOM.render(
-
-<Router>
-<App />
-</Router>, 
+<App />, 
 document.getElementById("root"));
