@@ -2,7 +2,7 @@ import React from "react";
 import Footer from "./components/Footer";
 import Wrapper from "./components/Wrapper";
 import Header from "./components/Header";
-import { BrowserRouter as Route } from "react-router-dom";
+import { HashRouter as Router, Route } from "react-router-dom";
 import NavTabs from "./components/NavTabs";
 import Home from "./components/pages/Home";
 import About from "./components/pages/About";
@@ -14,7 +14,7 @@ import Contact from "./components/pages/Contact";
 function App() {
   return (
     <Wrapper>
-    
+    <Router>
         <NavTabs />
         <Header />
         <Route exact path="/" component={Home} /> 
@@ -23,7 +23,7 @@ function App() {
         <Route exact path="/portfolio" component={Portfolio} />
         <Route exact path="/contact" component={Contact} />
         <Footer />
-
+</Router>
     </Wrapper>
   );
 }
