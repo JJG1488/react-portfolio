@@ -37,6 +37,7 @@ function App() {
     // </Router>
 <Wrapper>
     <HashRouter basename={process.env.PUBLIC_URL}>
+    <>
         <NavTabs />
         <Header/>
         <Switch>
@@ -54,6 +55,7 @@ function App() {
           </Route>
         </Switch>
         <Footer />
+        </>
     </HashRouter>
     </Wrapper>
 
