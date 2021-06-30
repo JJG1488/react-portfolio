@@ -10,46 +10,87 @@ function NavTabs() {
     // const location = useLocation();
 
     return (
-        <Navbar className="mr-auto navbar navbar-custom" fixed="top">
-            <Nav>
+        <Navbar className="nav nav-tabs">
+            {/* <Nav>
                 <Link className="navlinks nav-link-custom" to="/">Home</Link>
                 <Link className="navlinks nav-link-custom" to="/about">About</Link>
                 <Link className="navlinks nav-link-custom" to="/portfolio">Portfolio</Link>
                 <Link className="navlinks nav-link-custom" to="/contact">Contact</Link>
             </Nav>
+            <br/> */}
+
+            <Nav>
+            <ul className="nav nav-tabs">
+            <li className="nav-item">
+                <Link to="/home" className="nav-link active">
+                    Home
+        </Link>
+            </li>
+            <li className="nav-item">
+                <Link
+                    to="/about"
+                    className="nav-link active">
+                    About
+        </Link>
+            </li>
+            <li className="nav-item">
+                <Link
+                    to="/portfolio"
+                    className="nav-link active">
+                    Portfolio
+        </Link>
+            </li>
+            <li className="nav-item">
+                <Link
+                    to="/contact"
+                    className="nav-link active">
+                    Contact
+        </Link>
+            </li>
+        </ul>
+            </Nav>
         </Navbar>
-        // <ul className="nav nav-tabs">
-        //     <li className="nav-item">
-        //         <Link to="/home" className="nav-link active">
-        //             Home
-        // </Link>
-        //     </li>
-        //     <li className="nav-item">
-        //         <Link
-        //             to="/about"
-        //             className="nav-link active">
-        //             About
-        // </Link>
-        //     </li>
-        //     <li className="nav-item">
-        //         <Link
-        //             to="/portfolio"
-        //             className="nav-link active">
-        //             Portfolio
-        // </Link>
-        //     </li>
-        //     <li className="nav-item">
-        //         <Link
-        //             to="/contact"
-        //             className="nav-link active">
-        //             Contact
-        // </Link>
-        //     </li>
-        // </ul>
+
     );
 }
 
 export default NavTabs;
+
+// =================================================================================================
+// ====================================================================
+
+//   <ul className="nav nav-tabs">
+//             <li className="nav-item">
+//                 <Link to="/home" className="nav-link active">
+//                     Home
+//         </Link>
+//             </li>
+//             <li className="nav-item">
+//                 <Link
+//                     to="/about"
+//                     className="nav-link active">
+//                     About
+//         </Link>
+//             </li>
+//             <li className="nav-item">
+//                 <Link
+//                     to="/portfolio"
+//                     className="nav-link active">
+//                     Portfolio
+//         </Link>
+//             </li>
+//             <li className="nav-item">
+//                 <Link
+//                     to="/contact"
+//                     className="nav-link active">
+//                     Contact
+//         </Link>
+//             </li>
+//         </ul>
+
+
+// =========================================================================
+// ===========================================================================
 
 
 // import React from 'react';
