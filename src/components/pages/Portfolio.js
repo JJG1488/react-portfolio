@@ -11,7 +11,7 @@ import doggyDayCare from "../data/Assets/Images/dogDaycare.png";
 import offlineTracker from "../data/Assets/Images/offline-tracker.png";
 
 // const mainContainer = {
-  
+
 //   borderRadius: "25px",
 //   border: "solid",
 //   boxShadow: "10px 10px 5px black",
@@ -25,110 +25,118 @@ import offlineTracker from "../data/Assets/Images/offline-tracker.png";
 const Portfolio = () => (
   <div>
 
-    <h1 style={{textShadow: "6px 2px 2px #1C6EA4"}}>Portfolio Page</h1>
+    <h1 style={{ textShadow: "-1px 2px 2px #1C6EA4", textAlign: "center", color: "white" }}>Portfolio</h1>
 
-    <Card style={{ backgroundColor: "grey", width: '49%', borderRadius: '25px', boxShadow: "10px 10px 5px black", border: "solid", float: "left", maxHeight: "30rem", minHeight: "35rem", overflow: "auto", marginRight: "2%", marginBottom: "1%"}}>
-    <Card.Body>
-      <Card.Img variant="top" src={doggyDayCare} style={{ borderRadius: "25px", height: "38rem", width: "100%", maxHeight: "20rem" }} />
-      <Card.Text style={{ marginTop: "2%", textAlign: "center", overflow: "hidden", textShadow: "1px 2px 2px #1C6EA4" }}>
-      <a href="https://doggy-daycare-88.herokuapp.com" target="_blank" rel="noreferrer">Click Here To See!</a>
-          <p>
-          My first collaboration with a future dog daycare owner. The idea was to get the application set up enough to a point where the owner could just update the information that their clients/ future clients would need to see. There is a signup/login section for camera access (future development) so that dog moms and dog dads can keep an eye on their loved one while they handle other things.
-          </p>
+    <Card style={{ backgroundColor: "grey", width: '49%', borderRadius: '25px', boxShadow: "10px 10px 5px black", border: "solid", float: "left", maxHeight: "30rem", minHeight: "35rem", overflow: "auto", marginRight: "2%", marginBottom: "1%" }}>
+      <Card.Body>
+        <Card.Img variant="top" src={doggyDayCare} style={{ borderRadius: "25px", height: "38rem", width: "100%", maxHeight: "20rem" }} />
+        <Card.Text style={{ marginTop: "2%", textAlign: "center", overflow: "hidden", textShadow: "1px 2px 2px #1C6EA4" }}>
+          <a href="https://doggy-daycare-88.herokuapp.com" target="_blank" rel="noreferrer">Click Here To See!</a><br></br>
+          <span>
+            Technologies used: React, Express, Node, Visual Studio Code, React Bootstrap, JavaScript.
+
+            This is a collaboration with a future dog daycare owner.
+            {/* The idea was to get the application set up enough to a point where the owner could just update the information that their clients/ future clients would need to see. There is a signup/login section for camera access (future development) so that dog moms and dog dads can keep an eye on their loved one while they handle other things. */}
+          </span>
         </Card.Text>
-        </Card.Body>
+      </Card.Body>
     </Card>
 
-    <Card style={{ backgroundColor: "grey", width: '49%', borderRadius: '25px', boxShadow: "10px 10px 5px black", border: "solid", float: "left", maxHeight: "30rem", minHeight: "35rem", overflow: "auto",}}>
-    <Card.Body>
-      <Card.Img variant="top" src={offlineTracker} style={{ borderRadius: "25px", height: "38rem", width: "100%", maxHeight: "20rem" }} />
-      <Card.Text style={{ marginTop: "2%", textAlign: "center", overflow: "hidden", textShadow: "1px 2px 2px #1C6EA4" }}>
-      <a href="https://offline-tracker.herokuapp.com" target="_blank" rel="noreferrer">Click Here To See!</a>
-          <p>
-This application was created to display offline capability by register service workers that persists data when on and offline.
-          </p>
+    <Card style={{ backgroundColor: "grey", width: '49%', borderRadius: '25px', boxShadow: "10px 10px 5px black", border: "solid", float: "left", maxHeight: "30rem", minHeight: "35rem", overflow: "auto", }}>
+      <Card.Body>
+        <Card.Img variant="top" src={offlineTracker} style={{ borderRadius: "25px", height: "38rem", width: "100%", maxHeight: "20rem" }} />
+        <Card.Text style={{ marginTop: "2%", textAlign: "center", overflow: "hidden", textShadow: "1px 2px 2px #1C6EA4" }}>
+          <a href="https://offline-tracker.herokuapp.com" target="_blank" rel="noreferrer">Click Here To See!</a><br></br>
+          <span>
+            Technologies used: Compression, Express, Mongoose, MongoDB, Service Worker, JavaScript.
+            This application was created to display offline capability by register service workers that persists data when on and offline.
+          </span>
         </Card.Text>
-        </Card.Body>
-    </Card>
-
-    <Card style={{ backgroundColor: "grey", width: '49%', borderRadius: '25px', boxShadow: "10px 10px 5px black", border: "solid", float: "left", maxHeight: "30rem", minHeight: "35rem", overflow: "auto", marginRight: "2%", marginBottom: "1%"}}>
-    <Card.Body>
-      <Card.Img variant="top" src={travelLogger} style={{ borderRadius: "25px", height: "38rem", width: "100%", maxHeight: "20rem" }} />
-      <Card.Text style={{ marginTop: "2%", textAlign: "center", overflow: "hidden", textShadow: "1px 2px 2px #1C6EA4" }}>
-      <a href="https://hidden-waters-17740.herokuapp.com/" target="_blank" rel="noreferrer">Click Here To See!</a>
-          <p>
-          Have you ever gone to a new location and had no idea of what indoor/ outdoor activities were around you? Well look no further, the travel logger application is here to assist you. Your own personal activity logger.
-          </p>
-        </Card.Text>
-        </Card.Body>
-    </Card>
-
-    <Card style={{ backgroundColor: "grey", width: '49%', borderRadius: '25px', boxShadow: "10px 10px 5px black", border: "solid", float: "left", maxHeight: "30rem", minHeight: "35rem", overflow: "auto",  }}>
-    <Card.Body>
-      <Card.Img variant="top" src={wannaBurger} style={{ borderRadius: "25px", height: "38rem", width: "100%", maxHeight: "20rem" }} />
-      <Card.Text style={{ marginTop: "2%", textAlign: "center", overflow: "hidden", textShadow: "1px 2px 2px #1C6EA4" }}>
-      <a href="https://damp-castle-88848.herokuapp.com/" target="_blank" rel="noreferrer">Click Here To See!</a>
-          <p>This application uses a database to store the information that the user enters. The user is able to add a item
-          to whichever side of the application that the user decides, and based on the side selected, the information is
-          stored in the database table and displayed to the appropriate column.</p>
-        </Card.Text>
-        </Card.Body>
+      </Card.Body>
     </Card>
 
     <Card style={{ backgroundColor: "grey", width: '49%', borderRadius: '25px', boxShadow: "10px 10px 5px black", border: "solid", float: "left", maxHeight: "30rem", minHeight: "35rem", overflow: "auto", marginRight: "2%", marginBottom: "1%" }}>
-    <Card.Body>
-      <Card.Img variant="top" src={findYourMovie} style={{ borderRadius: "25px", height: "38rem", width: "100%", maxHeight: "20rem" }} />
-      <Card.Text style={{ marginTop: "2%", textAlign: "center", overflow: "hidden", textShadow: "1px 2px 2px #1C6EA4" }}>
-      <a href="https://jjg1488.github.io/find-your-movie/" target="_blank" rel="noreferrer">Click Here To See!</a>
-      <p>Have you ever searched for a movie and had to switch movie platforms to find it? Well, this website solves that
-          problem!</p>
+      <Card.Body>
+        <Card.Img variant="top" src={travelLogger} style={{ borderRadius: "25px", height: "38rem", width: "100%", maxHeight: "20rem" }} />
+        <Card.Text style={{ marginTop: "2%", textAlign: "center", overflow: "hidden", textShadow: "1px 2px 2px #1C6EA4" }}>
+          <a href="https://hidden-waters-17740.herokuapp.com/" target="_blank" rel="noreferrer">Click Here To See!</a><br></br>
+          <span>
+            Technologies Used: Travis CLI, JavaScript, Passport, Handlebars, ESlint, Compression, MySQL, Sequelize
+            our own personal activity logger.
+            {/* Have you ever gone to a new location and had no idea of what indoor/ outdoor activities were around you? Well look no further, the travel logger application is here to assist you. Your own personal activity logger. */}
+          </span>
         </Card.Text>
-        </Card.Body>
+      </Card.Body>
+    </Card>
+
+    <Card style={{ backgroundColor: "grey", width: '49%', borderRadius: '25px', boxShadow: "10px 10px 5px black", border: "solid", float: "left", maxHeight: "30rem", minHeight: "35rem", overflow: "auto", }}>
+      <Card.Body>
+        <Card.Img variant="top" src={wannaBurger} style={{ borderRadius: "25px", height: "38rem", width: "100%", maxHeight: "20rem" }} />
+        <Card.Text style={{ marginTop: "2%", textAlign: "center", overflow: "hidden", textShadow: "1px 2px 2px #1C6EA4" }}>
+          <a href="https://damp-castle-88848.herokuapp.com/" target="_blank" rel="noreferrer">Click Here To See!</a><br></br>
+          <span>This application uses a database to store the information that the user enters. The user is able to add a item
+            to whichever side of the application that the user decides, and based on the side selected, the information is
+            stored in the database table and displayed to the appropriate column.</span>
+        </Card.Text>
+      </Card.Body>
+    </Card>
+
+    <Card style={{ backgroundColor: "grey", width: '49%', borderRadius: '25px', boxShadow: "10px 10px 5px black", border: "solid", float: "left", maxHeight: "30rem", minHeight: "35rem", overflow: "auto", marginRight: "2%", marginBottom: "1%" }}>
+      <Card.Body>
+        <Card.Img variant="top" src={findYourMovie} style={{ borderRadius: "25px", height: "38rem", width: "100%", maxHeight: "20rem" }} />
+        <Card.Text style={{ marginTop: "2%", textAlign: "center", overflow: "hidden", textShadow: "1px 2px 2px #1C6EA4" }}>
+          <a href="https://jjg1488.github.io/find-your-movie/" target="_blank" rel="noreferrer">Click Here To See!</a><br></br>
+          <span>Have you ever searched for a movie and had to switch movie platforms to find it? Well, this website solves that
+            problem!</span>
+        </Card.Text>
+      </Card.Body>
     </Card>
 
     <Card style={{ backgroundColor: "grey", width: '49%', borderRadius: '25px', boxShadow: "10px 10px 5px black", border: "solid", float: "left", maxHeight: "30rem", minHeight: "35rem", overflow: "auto" }}>
-    <Card.Body>
-      <Card.Img variant="top" src={workdayScheduler} style={{ borderRadius: "25px", height: "38rem", width: "100%", maxHeight: "20rem" }} />
-      <Card.Text style={{ marginTop: "2%", textAlign: "center", overflow: "hidden", textShadow: "1px 2px 2px #1C6EA4" }}>
-      <a href="https://jjg1488.github.io/work-day-scheduler/" target="_blank" rel="noreferrer">Click Here To See!</a>
-      <p>This webpage displays a workday scheduler that can save the event or task to local storage. User input data
-          can be used for myriad of things and used later.</p>
+      <Card.Body>
+        <Card.Img variant="top" src={workdayScheduler} style={{ borderRadius: "25px", height: "38rem", width: "100%", maxHeight: "20rem" }} />
+        <Card.Text style={{ marginTop: "2%", textAlign: "center", overflow: "hidden", textShadow: "1px 2px 2px #1C6EA4" }}>
+          <a href="https://jjg1488.github.io/work-day-scheduler/" target="_blank" rel="noreferrer">Click Here To See!</a><br></br>
+          <span>This webpage displays a workday scheduler that can save the event or task to local storage. User input data
+            can be used for myriad of things and used later.</span>
         </Card.Text>
-        </Card.Body>
+      </Card.Body>
     </Card>
 
     <Card style={{ backgroundColor: "grey", width: '49%', borderRadius: '25px', boxShadow: "10px 10px 5px black", border: "solid", float: "left", maxHeight: "30rem", minHeight: "35rem", overflow: "auto", marginRight: "2%", marginBottom: "1%" }}>
-    <Card.Body>
-      <Card.Img variant="top" src={weatherDashboard} style={{ borderRadius: "25px", height: "38rem", width: "100%", maxHeight: "20rem" }} />
-      <Card.Text style={{ marginTop: "2%", textAlign: "center", overflow: "hidden", textShadow: "1px 2px 2px #1C6EA4" }}>
-      <a href="https://jjg1488.github.io/weather-dashboard/" target="_blank" rel="noreferrer">Click Here To See!</a>
-      <p>Have a look at the weather for multiple cities. This is for people that enjoy traveling.</p>
+      <Card.Body>
+        <Card.Img variant="top" src={weatherDashboard} style={{ borderRadius: "25px", height: "38rem", width: "100%", maxHeight: "20rem" }} />
+        <Card.Text style={{ marginTop: "2%", textAlign: "center", overflow: "hidden", textShadow: "1px 2px 2px #1C6EA4" }}>
+          <a href="https://jjg1488.github.io/weather-dashboard/" target="_blank" rel="noreferrer">Click Here To See!</a><br></br>
+          <span>Have a look at the weather for multiple cities. This is for people that enjoy traveling.</span>
         </Card.Text>
-        </Card.Body>
+      </Card.Body>
     </Card>
 
     <Card style={{ backgroundColor: "grey", width: '49%', borderRadius: '25px', boxShadow: "10px 10px 5px black", border: "solid", float: "left", maxHeight: "30rem", minHeight: "35rem", overflow: "auto" }}>
-    <Card.Body>
-      <Card.Img variant="top" src={passwordGen} style={{ borderRadius: "25px", height: "38rem", width: "100%", maxHeight: "20rem" }} />
-      <Card.Text style={{ marginTop: "2%", textAlign: "center", overflow: "hidden", textShadow: "1px 2px 2px #1C6EA4" }}>
-      <a href="https://jjg1488.github.io/password-generator/" target="_blank" rel="noreferrer">Click Here To See!</a>
-      <p>Need a password? No problem! This webpage displays an example of how JavaScript is used to compare different
-          user inputs that can result in different outcomes based on those inputs.</p>
+      <Card.Body>
+        <Card.Img variant="top" src={passwordGen} style={{ borderRadius: "25px", height: "38rem", width: "100%", maxHeight: "20rem" }} />
+        <Card.Text style={{ marginTop: "2%", textAlign: "center", overflow: "hidden", textShadow: "1px 2px 2px #1C6EA4" }}>
+          <a href="https://jjg1488.github.io/password-generator/" target="_blank" rel="noreferrer">Click Here To See!</a>
+          <br></br>
+          <span>Need a password? No problem! This webpage displays an example of how JavaScript is used to compare different
+            user inputs that can result in different outcomes based on those inputs.</span>
         </Card.Text>
-        </Card.Body>
+      </Card.Body>
     </Card>
 
     <Card style={{ backgroundColor: "grey", width: '49%', borderRadius: '25px', boxShadow: "10px 10px 5px black", border: "solid", float: "left", maxHeight: "30rem", minHeight: "35rem", overflow: "auto", marginRight: "2%", marginBottom: "1%" }}>
-    <Card.Body>
-      <Card.Img variant="top" src={websiteAccessibility} style={{ borderRadius: "25px", height: "38rem", width: "100%", maxHeight: "20rem" }} />
-      <Card.Text style={{ marginTop: "2%", textAlign: "center", overflow: "hidden", textShadow: "1px 2px 2px #1C6EA4" }}>
-      <a href="https://jjg1488.github.io/web-accessibility-website/" target="_blank" rel="noreferrer">Click Here To See!</a>
-      <p>This website displays proper structure of a webpage.</p>
+      <Card.Body>
+        <Card.Img variant="top" src={websiteAccessibility} style={{ borderRadius: "25px", height: "38rem", width: "100%", maxHeight: "20rem" }} />
+        <Card.Text style={{ marginTop: "2%", textAlign: "center", overflow: "hidden", textShadow: "1px 2px 2px #1C6EA4" }}>
+          <a href="https://jjg1488.github.io/web-accessibility-website/" target="_blank" rel="noreferrer">Click Here To See!</a>
+          <br></br>
+          <span>This website displays proper structure of a webpage.</span>
         </Card.Text>
-        </Card.Body>
+      </Card.Body>
     </Card>
 
-      </div>
+  </div>
 
 );
 

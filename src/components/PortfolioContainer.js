@@ -34,8 +34,10 @@ class PortfolioContainer extends Component {
                     currentPage={this.state.currentPage}
                     handlePageChange={this.handlePageChange}
                 />
-                
+                <div>
                 {this.renderPage()}
+                </div>
+                
             </div>
         );
     }
