@@ -10,6 +10,7 @@ function NavTabs() {
     // const location = useLocation();
 
     return (
+        <div style={{backgroundColor: "grey", marginBottom: "1%"}}>
         <Navbar className="nav nav-tabs">
             {/* <Nav>
                 <Link className="navlinks nav-link-custom" to="/">Home</Link>
@@ -50,6 +51,7 @@ function NavTabs() {
         </ul>
             </Nav>
         </Navbar>
+        </div>
 
     );
 }

@@ -4,14 +4,14 @@ import { Card } from "react-bootstrap";
 
 const Contact = () => (
   <div>
-    <h1 style={{textShadow: "6px 1px 1px #1C6EA4"}}>Contact Page</h1>
+    <h1 style={{ textShadow: "-1px 2px 2px #1C6EA4", textAlign: "center", color: "white"}}>Contact Information</h1>
 
     <Card style={{width: '50%', borderRadius: '25px', boxShadow: "10px 10px 5px black", border: "solid", marginLeft: "auto", marginRight: "auto", backgroundColor: "grey"}}>
       {/* <Card.Img variant="top" style={{ borderRadius: "25px", height: "38rem", width: "100%", minHeight: "40rem" }} /> */}
 
       <Card.Body>
         <Card.Text style={{ textAlign: "left", textShadow: "1px 1px 1px #1C6EA4" }}>
-        <p id="contact-info">
+        <span id="contact-info">
 
         Name: James J. Gault
 
@@ -32,13 +32,13 @@ const Contact = () => (
 
         <br/>
 
-        <a href="https://1drv.ms/w/s!AhUoiYry11tJgUss8QE8mneiNqvk" rel="noreferrer" target="_blank">Open Resume in a PDF File   <i className="fa fa-download" aria-hidden="true"></i></a>
+        <a href="https://1drv.ms/w/s!AoCauJZ3EHFdgwMB4s6gnDG-WQOe?e=XDqvMB" rel="noreferrer" target="_blank">Open Resume in a PDF File   <i className="fa fa-download" aria-hidden="true"></i></a>
 
         <br/>
 
         Phone: 586-229-6418
 
-      </p>
+      </span>
           
     </Card.Text>
       </Card.Body>
