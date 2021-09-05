@@ -18,7 +18,7 @@ function App() {
         <NavTabs />
         {/* <Header /> */}
         <Switch>
-        <Route exact path="/" component={About} /> 
+        <Route exact path="/" component={Portfolio} /> 
         <Route exact path="/home" component={Home} />
         <Route exact path="/about" component={About} />
         <Route exact path="/portfolio" component={Portfolio} />
