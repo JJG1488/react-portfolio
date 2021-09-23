@@ -19,7 +19,9 @@ const mainContainer = {
   border: "solid", overflow: "auto",
   marginBottom: "2%",
   textAlign: "center", textShadow: "-1px 2px 2px #1C6EA4", color: "white",
-  margin: "0 auto",
+  margin: "2% auto",
+
+
 
 }
 
