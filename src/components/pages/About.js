@@ -7,15 +7,11 @@ const mainContainer = {
   borderRadius: "25px",
   border: "solid",
   boxShadow: "10px 10px 5px black",
-  minHeight: "40rem",
-  maxHeight: "40rem",
   overflow: "auto",
   marginTop: "10%",
   marginLeft: "25%",
   marginRight: "25%",
   marginBottom: "15%",
-  minWidth: "50%",
-  maxWidth: "50%",
   
 
 }
