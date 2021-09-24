@@ -11,7 +11,7 @@ function NavTabs() {
 
     return (
         <div style={{backgroundColor: "grey", marginBottom: "1%"}}>
-        <Navbar className="nav nav-tabs">
+        <Navbar className="nav nav-tabs" style={{position: "sticky-top"}}>
             {/* <Nav>
                 <Link className="navlinks nav-link-custom" to="/">Home</Link>
                 <Link className="navlinks nav-link-custom" to="/about">About</Link>

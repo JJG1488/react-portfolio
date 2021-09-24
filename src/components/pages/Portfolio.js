@@ -16,7 +16,7 @@ const mainContainer = {
   width: "75vw",
   borderRadius: '25px',
   boxShadow: "10px 10px 5px black",
-  border: "solid", overflow: "auto",
+  border: "solid black", overflow: "auto",
   marginBottom: "2%",
   textAlign: "center", textShadow: "-1px 2px 2px #1C6EA4", color: "white",
   margin: "2% auto",
@@ -30,7 +30,7 @@ const Portfolio = () => (
 
     <h1 style={{ textShadow: "-1px 2px 2px #1C6EA4", textAlign: "center", color: "white" }}>Portfolio</h1>
 
-    <div className="container-fluid justify-content-center" >
+    <div className="container-fluid" >
       <div className="row justify-content-md-center">
         <div className="col">
           <Card style={mainContainer}>
