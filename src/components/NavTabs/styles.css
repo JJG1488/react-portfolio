@@ -1,0 +1,17 @@
+#logo {
+    font-family: 'Ephesis', cursive;
+}
+#basic-navbar-nav{
+    float: right;
+    justify-content: right;
+    background-color: white;
+}
+
+.me-auto, #navTabsRow, #nav-data {
+    background-color: white;
+}
+
+
+#nav-link-text:hover {
+    color: blue;
+}

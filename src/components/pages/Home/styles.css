@@ -1,0 +1,42 @@
+/* Try to get image to display from here in the CSS instead of the actual file Home.js */
+#imageDataCertificate {
+    width: 100%;
+}
+
+h1 { 
+    text-align: center;
+}
+
+#data-text {
+    text-align: left;
+    overflow: auto;
+    
+}
+
+h6 {
+    text-align: center;
+}
+
+/* .row {
+    border: solid red;
+}
+
+.col {
+    border: solid green;
+} */
+
+#big-btn {
+    border: solid blue;
+    background-color: white;
+    color: blue;
+    border-radius: 40px;
+    background: transparent;
+    
+}
+
+#big-btn:hover {
+    border: solid blue;
+    background-color: blue;
+    color: white;
+    
+}

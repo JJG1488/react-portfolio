@@ -1,13 +1,12 @@
 import React from "react";
-import Footer from "./components/Footer";
+import Footer from "./components/Footer/Footer";
 import Wrapper from "./components/Wrapper";
-// import Header from "./components/Header";
+import Header from "./components/Header/Header";
 import { HashRouter as Router, Route, Switch } from "react-router-dom";
-import NavTabs from "./components/NavTabs";
-import Home from "./components/pages/Home";
-import About from "./components/pages/About";
-import Portfolio from "./components/pages/Portfolio";
-import Contact from "./components/pages/Contact";
+import Home from "./components/pages/Home/Home";
+import About from "./components/pages/About/About";
+import Portfolio from "./components/pages/Portfolio/Portfolio";
+import Contact from "./components/pages/Contact/Contact";
 
 
 
@@ -15,8 +14,8 @@ function App() {
   return (
     <Router basename="/">
     <Wrapper>
-        <NavTabs />
-        {/* <Header /> */}
+    <Header />
+        
         <Switch>
         <Route exact path="/" component={Portfolio} /> 
         <Route exact path="/home" component={Home} />
