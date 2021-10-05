@@ -4,6 +4,7 @@ import "./styles.css";
 import { Link } from "react-router-dom";
 
 const Home = () => (
+
   <div className="container">
     <div className="row">
       <div className="col-md-6">

@@ -2,15 +2,20 @@
     font-family: 'Ephesis', cursive;
 }
 #basic-navbar-nav{
-    float: right;
+    float: left;
     justify-content: right;
-    background-color: white;
+    background-color: red;
 }
 
 .me-auto, #navTabsRow, #nav-data {
     background-color: white;
 }
 
+#nav-data {
+    float: right;
+    margin-bottom: 1% auto;
+
+}
 
 #nav-link-text:hover {
     color: blue;
