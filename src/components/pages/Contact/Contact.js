@@ -27,7 +27,7 @@ const Contact = () => (
 
             <br />
 
-            <a href="https://1drv.ms/w/s!AoCauJZ3EHFdgwMB4s6gnDG-WQOe?e=XDqvMB" rel="noreferrer" target="_blank"> <span id="social-link-data">Open Resume in a PDF File </span>  <i className="fa fa-download" aria-hidden="true"></i></a>
+            <a href="https://1drv.ms/w/s!AoCauJZ3EHFdgwMB4s6gnDG-WQOe" rel="noreferrer" target="_blank"> <span id="social-link-data">Open Resume in a PDF File </span>  <i className="fa fa-download" aria-hidden="true"></i></a>
 
             <br />
 
