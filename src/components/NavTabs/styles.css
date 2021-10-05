@@ -4,18 +4,17 @@
 #basic-navbar-nav{
     float: left;
     justify-content: right;
-    background-color: red;
+    /* background-color: red; */
 }
 
 .me-auto, #navTabsRow, #nav-data {
     background-color: white;
 }
 
-#nav-data {
-    float: right;
-    margin-bottom: 1% auto;
+/* #nav-data {
+    
 
-}
+} */
 
 #nav-link-text:hover {
     color: blue;
