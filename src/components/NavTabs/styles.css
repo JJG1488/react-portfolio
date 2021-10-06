@@ -3,7 +3,7 @@
 }
 #basic-navbar-nav{
     float: left;
-    justify-content: right;
+    justify-content: left;
     /* background-color: red; */
 }
 
@@ -18,4 +18,8 @@
 
 #nav-link-text:hover {
     color: blue;
+}
+
+.navbar-toggler-icon {
+    margin-right: 20%;
 }

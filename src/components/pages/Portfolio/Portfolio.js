@@ -23,8 +23,9 @@ const Portfolio = () => (
               <img src={doggyDayCare} id="project-photo" alt="" />
             </picture>
             <div className="row" id="project-row-data">
-              <a href="https://doggy-daycare-88.herokuapp.com" target="_blank" rel="noreferrer">Click Here To See!</a><br></br>
+              {/* <a href="https://doggy-daycare-88.herokuapp.com" target="_blank" rel="noreferrer">Click Here To See!</a><br></br> */}
               <span>
+              Under Construction
                 {/* Technologies used: React, Express, Node, Visual Studio Code, React Bootstrap, JavaScript.
                 This is a collaboration with a future dog daycare owner. */}
                 {/* The idea was to get the application set up enough to a point where the owner could just update the information that their clients/ future clients would need to see. There is a signup/login section for camera access (future development) so that dog moms and dog dads can keep an eye on their loved one while they handle other things. */}
@@ -58,8 +59,9 @@ const Portfolio = () => (
               <img src={travelLogger} id="project-photo" alt="" />
             </picture>
             <div className="row" id="project-row-data">
-              <a href="https://hidden-waters-17740.herokuapp.com/" target="_blank" rel="noreferrer">Click Here To See!</a><br></br>
+              {/* <a href="https://hidden-waters-17740.herokuapp.com/" target="_blank" rel="noreferrer">Click Here To See!</a><br></br> */}
               <span>
+              Under Construction
                 {/* Technologies Used: Travis CLI, JavaScript, Passport, Handlebars, ESlint, Compression, MySQL, Sequelize
                 our own personal activity logger. */}
                 {/* Have you ever gone to a new location and had no idea of what indoor/ outdoor activities were around you? Well look no further, the travel logger application is here to assist you. Your own personal activity logger. */}
@@ -139,8 +141,9 @@ const Portfolio = () => (
               <img src={weatherDashboard} id="project-photo" alt="" />
             </picture>
             <div className="row" id="project-row-data">
-              <a href="https://jjg1488.github.io/weather-dashboard/" target="_blank" rel="noreferrer">Click Here To See!</a><br></br>
+              {/* <a href="https://jjg1488.github.io/weather-dashboard/" target="_blank" rel="noreferrer">Click Here To See!</a><br></br> */}
               <span>
+              Under Construction
                 {/* Technologies Used: Travis CLI, JavaScript, Passport, Handlebars, ESlint, Compression, MySQL, Sequelize
                 our own personal activity logger. */}
                 {/* Have a look at the weather for multiple cities. This is for people that enjoy traveling. */}
