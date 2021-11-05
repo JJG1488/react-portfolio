@@ -1,13 +1,17 @@
 import React from "react";
-import travelLogger from "../../data/Assets/Images/travel-logger.png";
+// import travelLogger from "../../data/Assets/Images/travel-logger.png";
 import wannaBurger from "../../data/Assets/Images/wannaBurger.png";
 import findYourMovie from "../../data/Assets/Images/find-your-movie.png";
 import workdayScheduler from "../../data/Assets/Images/workday-scheduler copy.png";
-import weatherDashboard from "../../data/Assets/Images/weather-dashboard.png";
+// import weatherDashboard from "../../data/Assets/Images/weather-dashboard.png";
 import passwordGen from "../../data/Assets/Images/password-gen-screenshot copy.png";
-import doggyDayCare from "../../data/Assets/Images/dogDaycare.png";
+// import doggyDayCare from "../../data/Assets/Images/dogDaycare.png";
 import offlineTracker from "../../data/Assets/Images/offline-tracker.png";
+import workout from "../../data/Assets/Images/workout.png";
+import goodPeeps from "../../data/Assets/Images/Screen Shot 2021-11-04 at 9.37.33 PM.png";
 import './styles.css';
+
+// https://jjg1488.github.io/jdphotography/
 
 
 
@@ -20,12 +24,12 @@ const Portfolio = () => (
         <div className="col" id="project-col-data">
           {/* <div className="container" id="project-container-data"> */}
             <picture>
-              <img src={doggyDayCare} id="project-photo" alt="" />
+              {/* <img src={doggyDayCare} id="project-photo" alt="" /> */}
             </picture>
             <div className="row" id="project-row-data">
               {/* <a href="https://doggy-daycare-88.herokuapp.com" target="_blank" rel="noreferrer">Click Here To See!</a><br></br> */}
               <span>
-              Under Construction
+              {/* Under Construction */}
                 {/* Technologies used: React, Express, Node, Visual Studio Code, React Bootstrap, JavaScript.
                 This is a collaboration with a future dog daycare owner. */}
                 {/* The idea was to get the application set up enough to a point where the owner could just update the information that their clients/ future clients would need to see. There is a signup/login section for camera access (future development) so that dog moms and dog dads can keep an eye on their loved one while they handle other things. */}
@@ -51,17 +55,32 @@ const Portfolio = () => (
           {/* </div> */}
         </div>
 
+        <div className="col" id="project-col-data">
+          {/* <div className="container" id="project-container-data"> */}
+            <picture>
+              <img src={goodPeeps} id="project-photo" alt="E-Commerce Clothing Webpage" />
+            </picture>
+            <div className="row" id="project-row-data">
+              <a href="https://jjg1488.github.io/jdphotography/" target="_blank" rel="noreferrer">Click Here To See!</a><br></br>
+              <span>
+                {/* Technologies used: Compression, Express, Mongoose, MongoDB, Service Worker, JavaScript.
+                This application was created to display offline capability by register service workers that persists data when on and offline. */}
+              </span>
+            </div>
+          {/* </div> */}
+        </div>
+
 
 
         <div className="col" id="project-col-data">
           {/* <div className="container" id="project-container-data"> */}
             <picture>
-              <img src={travelLogger} id="project-photo" alt="" />
+              <img src={workout} id="project-photo" alt="" />
             </picture>
             <div className="row" id="project-row-data">
-              {/* <a href="https://hidden-waters-17740.herokuapp.com/" target="_blank" rel="noreferrer">Click Here To See!</a><br></br> */}
+              {/* <a href="https://jjg1488.github.io/workout-tracker/" target="_blank" rel="noreferrer">Click Here To See!</a><br></br> */}
               <span>
-              Under Construction
+              {/* Under Construction */}
                 {/* Technologies Used: Travis CLI, JavaScript, Passport, Handlebars, ESlint, Compression, MySQL, Sequelize
                 our own personal activity logger. */}
                 {/* Have you ever gone to a new location and had no idea of what indoor/ outdoor activities were around you? Well look no further, the travel logger application is here to assist you. Your own personal activity logger. */}
@@ -138,12 +157,12 @@ const Portfolio = () => (
         <div className="col" id="project-col-data">
           {/* <div className="container" id="project-container-data"> */}
             <picture>
-              <img src={weatherDashboard} id="project-photo" alt="" />
+              {/* <img src={weatherDashboard} id="project-photo" alt="" /> */}
             </picture>
             <div className="row" id="project-row-data">
               {/* <a href="https://jjg1488.github.io/weather-dashboard/" target="_blank" rel="noreferrer">Click Here To See!</a><br></br> */}
               <span>
-              Under Construction
+              {/* Under Construction */}
                 {/* Technologies Used: Travis CLI, JavaScript, Passport, Handlebars, ESlint, Compression, MySQL, Sequelize
                 our own personal activity logger. */}
                 {/* Have a look at the weather for multiple cities. This is for people that enjoy traveling. */}
