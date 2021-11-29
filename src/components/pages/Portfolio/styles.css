@@ -1,10 +1,10 @@
-#project-col-data {
+.project-col-data {
     /* border: solid purple; */
     justify-content: center;
-    height: 100%;
-    width: 90%;
-    padding: 0%;
-    margin: 1% 1% 1% 1% auto;
+    /* height: 100%; */
+    width: 100%;
+    /* padding: 0%; */
+    /* margin: 1% 1% 1% 1% auto; */
 }
 #project-row-data {
     /* border: solid blue; */
@@ -28,10 +28,19 @@
 .row {
 
     /* border: solid green; */
-    margin: 15px;
+    /* margin: 15px; */
 }
 
 .col {
-    justify-content: center;
+    /* justify-content: center; */
+}
+
+.main-portfolio-container {
+    /* border: solid red 10px; */
+    display: grid;
+    width: 100%;
+    margin-top: 20%;
+    /* grid-template: repeat(2, 1fr) / repeat(1, 1fr); */
+    gap: 5%;
 }
 

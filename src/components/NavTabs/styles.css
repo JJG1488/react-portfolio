@@ -11,15 +11,23 @@
     background-color: white;
 }
 
-/* #nav-data {
-    
+#nav-data {
+    width: 100%;
 
-} */
+}
 
 #nav-link-text:hover {
     color: blue;
 }
 
 .navbar-toggler-icon {
-    margin-right: 20%;
+    margin-right: 20%; 
+}
+
+.navbar {
+    /* border: solid red 2px; */
+    /* display: block;
+    position: fixed;
+    z-index: 3;
+    top: 0; */
 }

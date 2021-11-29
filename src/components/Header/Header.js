@@ -5,7 +5,7 @@ import './styles.css';
 function Header() {
 
     return (
-        <div id="headerTop">
+        <div className="headerTop">
             <NavTabs />
         </div>
     )

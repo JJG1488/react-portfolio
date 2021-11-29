@@ -51,7 +51,7 @@ function NavTabs() {
             </div>
 
 
-            <Navbar bg="light" variant="light" expand="md" id="nav-data">
+            <Navbar bg="light" variant="light" expand="md" id="nav-data" style={{ position: "absolute", zIndex: 1, width: '100vw', top: '0' }}>
                 <Navbar.Brand href="#home"><span id="logo"> JGServicesLLC </span></Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">

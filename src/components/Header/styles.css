@@ -1,5 +1,10 @@
-#headerTop {
+.headerTop {
     border: solid white;
+        /* border: solid red 2px; */
+    /* display: flex;
+    position: absolute;
+    z-index: 3;
+    top: 0; */
 }
 
 #logo {
