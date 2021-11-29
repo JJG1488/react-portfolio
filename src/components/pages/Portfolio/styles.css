@@ -2,6 +2,8 @@
     /* border: solid purple; */
     justify-content: center;
     /* height: 100%; */
+    align-self: center;
+    align-content: center;
     width: 100%;
     /* padding: 0%; */
     /* margin: 1% 1% 1% 1% auto; */
@@ -18,8 +20,8 @@
 #project-photo {
     margin: 2% 60% 2% 20%;
     /* border: solid orange; */
-    width: 240px;
-    height: 150px;
+    width: 50%;
+    height: 50%;
     padding: 0%;
     
 
@@ -39,7 +41,7 @@
     /* border: solid red 10px; */
     display: grid;
     width: 100%;
-    margin-top: 20%;
+    margin-top: 10%;
     /* grid-template: repeat(2, 1fr) / repeat(1, 1fr); */
     gap: 5%;
 }
