@@ -6,16 +6,17 @@
     align-content: center;
     width: 100%;
     position: relative;
-    top: 3%;
+    top: 20%;
     /* padding: 0%; */
     /* margin: 1% 1% 1% 1% auto; */
 }
 #project-row-data {
     /* border: solid blue; */
-    width: 100%;
-    padding: 0%;
+    /* width: 100%; */
+    /* padding: 0%; */
+    justify-content: center;
     margin: 0% auto;
-    margin-left: 35%;
+    /* margin-left: 35%; */
 
 }
 
