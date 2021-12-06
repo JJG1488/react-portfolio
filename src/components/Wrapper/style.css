@@ -1,6 +1,7 @@
 .wrapper {
   min-height: 100%;
   padding-bottom: 100px;
-  background-color: rgb(38, 42, 46);
-  background-image: url("../data/Assets/Images/new-aesthetic-wallpapers-1920x1080-windows-10-1536x864.jpg");
+  /* border: solid white; */
+  /* background-color: rgb(38, 42, 46); */
+  /* background-image: url("../data/Assets/Images/new-aesthetic-wallpapers-1920x1080-windows-10-1536x864.jpg"); */
 }

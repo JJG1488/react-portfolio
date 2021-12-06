@@ -1,9 +1,9 @@
 import React, { Component } from "react";
-import NavTabs from "./NavTabs";
-import Home from "./pages/Home";
-import About from "./pages/About";
-import Portfolio from "./pages/Portfolio";
-import Contact from "./pages/Contact";
+import NavTabs from "./NavTabs/NavTabs";
+import Home from "./pages/Home/Home";
+import About from "./pages/About/About";
+import Portfolio from "./pages/Portfolio/Portfolio";
+import Contact from "./pages/Contact/Contact";
 
 class PortfolioContainer extends Component {
     state = {
@@ -44,3 +44,4 @@ class PortfolioContainer extends Component {
 }
 
 export default PortfolioContainer;
+

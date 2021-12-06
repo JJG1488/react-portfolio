@@ -1,6 +1,9 @@
-* {
+body {
   box-sizing: border-box;
+  margin: 20% 0% 20% 0%;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
 html,
 body,
@@ -10,5 +13,10 @@ div[data-reactroot] {
   height: 100%;
   padding: 0;
   margin: 0;
+  font-family: 'Playfair Display', serif;
 }
 
+.fa fa{
+
+  color: "white";
+}

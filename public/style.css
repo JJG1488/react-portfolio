@@ -1,40 +1,43 @@
-*, *::before, *::after {
+/* *, *::before, *::after {
     box-sizing: border-box;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
 header, p, h1, form {
     font-family: 'Nerko One';
-}
+} */
 
-header {
+/* header {
     background-color: rgb(38, 42, 46);
     padding: 2%;
     margin-bottom: 5%;
-}
+} */
 
-.container {
+/* .container {
     border-radius: 25% 25% 25% 25%;
-}
+} */
 
-p {
+/* p {
     color: aliceblue;
-}
+} */
 
-header .navbar-nav {
+/* header .navbar-nav {
     text-align: right;
-}
-
+} */
+/* 
 body {
     background-image: url(./Assets/Images/Abstract-Hexagon-Pattern-Artistic-HD-Wallpaper-Background-Image-20-1536x960.jpg);
-}
+} */
 
-h1 {
+/* body { margin: 0; }
+canvas { width: 100%; height: 100% } */
+
+/* h1 {
     text-align: center;
     color: aliceblue;
-}
+} */
 
-#dev-photo {
+/* #dev-photo {
     float: left;
     background-image: url(./Assets/Images/electric-man.PNG);
     display: inline;
@@ -42,66 +45,66 @@ h1 {
 
 #main-picture {
     display: inline;
-}
+} */
 
-.row {
+/* .row {
     border-radius: 25% 25% 25% 25%;
-}
+} */
 
-#dev-photo {
+/* #dev-photo {
     border: lightslategrey solid;
     margin-right: 2%;
     max-width: 35%;
     max-height: 35%;
-}
+} */
 
-.col-xs-12 {
+/* .col-xs-12 {
     box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255), 0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
     background-color: rgb(38, 42, 46);
     min-height: 500px;
     max-width: 500px;
-}
+} */
 
-.contact-col, #reading-photo {
+/* .contact-col, #reading-photo {
     box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255), 0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
     background-color: rgb(38, 42, 46);
-}
+} */
 
-.col img {
+/* .col img {
     border: lightslategrey;
     height: 95%;
     width: 90%;
-}
+} */
 
-#reading-photo {
+/* #reading-photo {
     margin-right: 1%;
     position: relative;
     max-height: 800px;
     max-width: 400px;
     float: right;
-}
+} */
 
 /* #contact-info {
 
 } */
-
+/* 
 .copyright::before {
     color: white;
     content: "©️";
     padding: 2%;
-}
+} */
 
-.copyright {
+/* .copyright {
     color: white;
-}
-
+} */
+/* 
 footer {
     clear: both;
     text-align: center;
     padding: 1%;
     margin-bottom: 0%;
     background-color: rgb(38, 42, 46);
-}
+} */
 
 /* .nav-link {
     background-color: red;
@@ -111,6 +114,6 @@ footer {
     background-color: red;
 } */
 
-#reading-photo {
+/* #reading-photo {
     float: right;
-}
+} */

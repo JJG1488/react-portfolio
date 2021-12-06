@@ -1,0 +1,15 @@
+#social-link-data {
+    color: black;
+}
+
+.container {
+    /* border: solid red 10px; */
+    display: grid;
+
+}
+
+.contact-info {
+    /* border: solid green 3px; */
+    display: inline-block;
+    margin: 10% auto;
+}
