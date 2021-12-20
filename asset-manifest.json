@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.a93ee90b.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.abb1b5b1.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.abb1b5b1.chunk.js.map",
+    "main.js": "/react-portfolio/static/js/main.3d623d95.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.3d623d95.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.872b2f22.js",
     "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.872b2f22.js.map",
     "static/css/2.081f420c.chunk.css": "/react-portfolio/static/css/2.081f420c.chunk.css",
@@ -14,18 +14,18 @@
     "static/js/2.6d25ca44.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.6d25ca44.chunk.js.LICENSE.txt",
     "static/media/FullStackDevCertificate.bc96af11.png": "/react-portfolio/static/media/FullStackDevCertificate.bc96af11.png",
     "static/media/Screen Shot 2021-11-04 at 9.37.33 PM.2dea7d77.png": "/react-portfolio/static/media/Screen Shot 2021-11-04 at 9.37.33 PM.2dea7d77.png",
+    "static/media/code-quiz.0deb7032.png": "/react-portfolio/static/media/code-quiz.0deb7032.png",
     "static/media/find-your-movie.5f72a523.png": "/react-portfolio/static/media/find-your-movie.5f72a523.png",
     "static/media/offline-tracker.b88c1d7b.png": "/react-portfolio/static/media/offline-tracker.b88c1d7b.png",
     "static/media/password-gen-screenshot copy.5ae6b546.png": "/react-portfolio/static/media/password-gen-screenshot copy.5ae6b546.png",
     "static/media/wannaBurger.09765977.png": "/react-portfolio/static/media/wannaBurger.09765977.png",
-    "static/media/workday-scheduler copy.5a1b29b5.png": "/react-portfolio/static/media/workday-scheduler copy.5a1b29b5.png",
-    "static/media/workout.f0260344.png": "/react-portfolio/static/media/workout.f0260344.png"
+    "static/media/workday-scheduler copy.5a1b29b5.png": "/react-portfolio/static/media/workday-scheduler copy.5a1b29b5.png"
   },
   "entrypoints": [
     "static/js/runtime-main.872b2f22.js",
     "static/css/2.081f420c.chunk.css",
     "static/js/2.6d25ca44.chunk.js",
     "static/css/main.a93ee90b.chunk.css",
-    "static/js/main.abb1b5b1.chunk.js"
+    "static/js/main.3d623d95.chunk.js"
   ]
 }
