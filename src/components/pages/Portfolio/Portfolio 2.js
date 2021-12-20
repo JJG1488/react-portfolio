@@ -45,7 +45,8 @@ const Portfolio = () => (
           <img src={offlineTracker} id="project-photo" alt="" style={{}}/>
         </picture>
         <div className="row" id="project-row-data">
-          {/* <a href="https://offline-tracker.herokuapp.com" target="_blank" rel="noreferrer">Click Here To See!</a><br></br> */}
+          <a href="https://offline-tracker.herokuapp.com" target="_blank" rel="noreferrer">Click Here To See!</a><br></br>
+          <a href="https://jjg1488.github.io/online-offline-budget-tracker/" target="_blank" rel="noreferrer">Click Here To See Readme!</a><br></br>
           <span>
             {/* Technologies used: Compression, Express, Mongoose, MongoDB, Service Worker, JavaScript.
                 This application was created to display offline capability by register service workers that persists data when on and offline. */}
@@ -70,7 +71,6 @@ const Portfolio = () => (
       </div>
 
 
-
       <div className="col project-col-data">
         {/* <div className="container" id="project-container-data"> */}
         <picture>
@@ -87,7 +87,6 @@ const Portfolio = () => (
         </div>
         {/* </div> */}
       </div>
-
 
 
 
