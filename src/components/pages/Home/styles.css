@@ -1,4 +1,8 @@
 /* Try to get image to display from here in the CSS instead of the actual file Home.js */
+.home-container {
+    margin-top: 4rem;
+}
+
 #imageDataCertificate {
     width: 100%;
 }
