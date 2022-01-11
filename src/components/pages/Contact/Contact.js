@@ -26,8 +26,10 @@ const Contact = () => (
         <a href="https://twitter.com/JamesJGault"> <span id="social-link-data">  Twitter: </span> <i className="fa fa-twitter-square" aria-hidden="true"></i></a>
 
         <br />
+        
+        <a href="https://www.canva.com/design/DAElCwuxos0/SCQFvyORY1wdJK5SnLAaKQ/view?utm_content=DAElCwuxos0&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink" rel="noreferrer" target="_blank"> <span id="social-link-data">Open Resume in a PDF File </span>  <i className="fa fa-download" aria-hidden="true"></i></a>
 
-        <a href="https://1drv.ms/w/s!AoCauJZ3EHFdgwMB4s6gnDG-WQOe" rel="noreferrer" target="_blank"> <span id="social-link-data">Open Resume in a PDF File </span>  <i className="fa fa-download" aria-hidden="true"></i></a>
+        {/* <a href="https://1drv.ms/w/s!AoCauJZ3EHFdgwMB4s6gnDG-WQOe" rel="noreferrer" target="_blank"> <span id="social-link-data">Open Resume in a PDF File </span>  <i className="fa fa-download" aria-hidden="true"></i></a> */}
 
         <br />
 

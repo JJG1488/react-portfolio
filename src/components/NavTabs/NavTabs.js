@@ -59,7 +59,9 @@ function NavTabs() {
                     <Nav.Link href="#home"><span id="nav-link-text">Home</span></Nav.Link>
                     <Nav.Link href="#portfolio"><span id="nav-link-text">Portfolio</span></Nav.Link>
                     <Nav.Link href="#contact"><span id="nav-link-text">Contact</span></Nav.Link>
-                    <Nav.Link href="https://1drv.ms/w/s!AoCauJZ3EHFdgwMB4s6gnDG-WQOe" rel="noreferrer" target="_blank"><span id="nav-link-text">Resume</span></Nav.Link>
+                    
+                    <Nav.Link href="https://www.canva.com/design/DAElCwuxos0/SCQFvyORY1wdJK5SnLAaKQ/view?utm_content=DAElCwuxos0&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink" rel="noreferrer" target="_blank"><span id="nav-link-text">Resume</span></Nav.Link>
+                    {/* <Nav.Link href="https://1drv.ms/w/s!AoCauJZ3EHFdgwMB4s6gnDG-WQOe" rel="noreferrer" target="_blank"><span id="nav-link-text">Resume</span></Nav.Link> */}
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
