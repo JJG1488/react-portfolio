@@ -1,24 +1,3 @@
-.project-col-data {
-  /* border: solid purple; */
-  justify-content: center;
-  /* height: 100%; */
-  align-self: center;
-  align-content: center;
-  width: 100%;
-  position: relative;
-  top: 20%;
-  /* padding: 0%; */
-  /* margin: 1% 1% 1% 1% auto; */
-}
-#project-row-data {
-  /* border: solid blue; */
-  /* width: 100%; */
-  /* padding: 0%; */
-  justify-content: center;
-  margin: 0% auto;
-  /* margin-left: 35%; */
-}
-
 #project-photo {
   margin: 2% 60% 2% 20%;
   /* border: solid orange; */
@@ -28,8 +7,6 @@
 }
 
 .container {
-  /* border: red solid 2px; */
-  text-align: center;
   align-items: center;
   justify-content: center;
 }
@@ -44,6 +21,7 @@ p {
   display: grid;
   width: 100%;
   margin-top: 10%;
+  text-align: center;
   /* grid-template: repeat(2, 1fr) / repeat(1, 1fr); */
   gap: 5%;
 }
