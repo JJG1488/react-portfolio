@@ -11,7 +11,7 @@ import NavTabs from "./components/NavTabs/NavTabs";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/">
       <Wrapper>
         {/* <Header /> */}
         <NavTabs />
