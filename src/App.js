@@ -2,7 +2,7 @@ import React from "react";
 import Footer from "./components/Footer/Footer";
 import Wrapper from "./components/Wrapper";
 // import Header from "./components/Header/Header";
-import { HashRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Home from "./components/pages/Home/Home";
 import About from "./components/pages/About/About";
 import Portfolio from "./components/pages/Portfolio/Portfolio";
