@@ -59,7 +59,7 @@ function NavTabs() {
         style={{ position: "fixed", zIndex: 1, width: "100vw", top: "0" }}
       >
         {/* <Navbar bg="light" variant="light" expand="md" id="nav-data" style={{ position: "fixed", zIndex: 1, width: '100vw', top: '0%' }}> */}
-        <Navbar.Brand href="#home">
+        <Navbar.Brand href="home">
           <span id="logo"> JGServicesLLC </span>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -71,6 +71,9 @@ function NavTabs() {
             <Nav.Link as={Link} to="/portfolio">
               <span id="nav-link-text">Portfolio</span>
             </Nav.Link>
+            {/* <Nav.Link as={Link} to="/contact">
+              <span id="nav-link-text">About</span>
+            </Nav.Link> */}
             <Nav.Link as={Link} to="/contact">
               <span id="nav-link-text">Contact</span>
             </Nav.Link>
