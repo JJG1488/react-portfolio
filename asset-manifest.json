@@ -1,33 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.09daddd8.chunk.css",
-    "main.js": "/static/js/main.627226e9.chunk.js",
-    "main.js.map": "/static/js/main.627226e9.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.b42e3fe5.js",
-    "runtime-main.js.map": "/static/js/runtime-main.b42e3fe5.js.map",
-    "static/css/2.d6008dad.chunk.css": "/static/css/2.d6008dad.chunk.css",
-    "static/js/2.2dd83481.chunk.js": "/static/js/2.2dd83481.chunk.js",
-    "static/js/2.2dd83481.chunk.js.map": "/static/js/2.2dd83481.chunk.js.map",
+    "main.css": "/static/css/main.4eb8273c.css",
+    "main.js": "/static/js/main.9b9387ef.js",
+    "static/media/workday-scheduler copy.png": "/static/media/workday-scheduler copy.5a1b29b555ca48b9413c.png",
+    "static/media/wannaBurger.png": "/static/media/wannaBurger.09765977482d4e7e4c15.png",
+    "static/media/FullStackDevCertificate.png": "/static/media/FullStackDevCertificate.bc96af11da1d9761a57a.png",
+    "static/media/fundamentalsofnetworking.png": "/static/media/fundamentalsofnetworking.494bdf1425484af54cf9.png",
+    "static/media/offline-tracker.png": "/static/media/offline-tracker.b88c1d7b2d4a6d659c08.png",
+    "static/media/password-gen-screenshot copy.png": "/static/media/password-gen-screenshot copy.5ae6b546d07e6c67e24e.png",
+    "static/media/solanablockchain.png": "/static/media/solanablockchain.e20e1ced2d5ee4fd617c.png",
+    "static/media/proshop.png": "/static/media/proshop.ab7dca18b634a5142306.png",
+    "static/media/workout.png": "/static/media/workout.f0260344c720c138158a.png",
+    "static/media/basicwebprogramming.png": "/static/media/basicwebprogramming.7940dbd50e92dca44d58.png",
     "index.html": "/index.html",
-    "static/css/2.d6008dad.chunk.css.map": "/static/css/2.d6008dad.chunk.css.map",
-    "static/css/main.09daddd8.chunk.css.map": "/static/css/main.09daddd8.chunk.css.map",
-    "static/js/2.2dd83481.chunk.js.LICENSE.txt": "/static/js/2.2dd83481.chunk.js.LICENSE.txt",
-    "static/media/FullStackDevCertificate.bc96af11.png": "/static/media/FullStackDevCertificate.bc96af11.png",
-    "static/media/basicwebprogramming.7940dbd5.png": "/static/media/basicwebprogramming.7940dbd5.png",
-    "static/media/fundamentalsofnetworking.494bdf14.png": "/static/media/fundamentalsofnetworking.494bdf14.png",
-    "static/media/offline-tracker.b88c1d7b.png": "/static/media/offline-tracker.b88c1d7b.png",
-    "static/media/password-gen-screenshot copy.5ae6b546.png": "/static/media/password-gen-screenshot copy.5ae6b546.png",
-    "static/media/proshop.ab7dca18.png": "/static/media/proshop.ab7dca18.png",
-    "static/media/solanablockchain.e20e1ced.png": "/static/media/solanablockchain.e20e1ced.png",
-    "static/media/wannaBurger.09765977.png": "/static/media/wannaBurger.09765977.png",
-    "static/media/workday-scheduler copy.5a1b29b5.png": "/static/media/workday-scheduler copy.5a1b29b5.png",
-    "static/media/workout.f0260344.png": "/static/media/workout.f0260344.png"
+    "main.4eb8273c.css.map": "/static/css/main.4eb8273c.css.map",
+    "main.9b9387ef.js.map": "/static/js/main.9b9387ef.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.b42e3fe5.js",
-    "static/css/2.d6008dad.chunk.css",
-    "static/js/2.2dd83481.chunk.js",
-    "static/css/main.09daddd8.chunk.css",
-    "static/js/main.627226e9.chunk.js"
+    "static/css/main.4eb8273c.css",
+    "static/js/main.9b9387ef.js"
   ]
 }
