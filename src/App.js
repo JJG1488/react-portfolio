@@ -2,7 +2,7 @@ import React from "react";
 import Footer from "./components/Footer/Footer";
 import Wrapper from "./components/Wrapper";
 // import Header from "./components/Header/Header";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { HashRouter as Router, Route, Switch } from "react-router-dom";
 import Home from "./components/pages/Home/Home";
 import About from "./components/pages/About/About";
 import Portfolio from "./components/pages/Portfolio/Portfolio";
@@ -16,13 +16,12 @@ function App() {
         {/* <Header /> */}
         <NavTabs />
 
-        <Switch>
-          <Route exact path="/" component={Portfolio} />
-          <Route index path="/home" component={Home} />
-          <Route index path="/about" element={About} />
-          <Route index path="/portfolio" component={Portfolio} />
-          <Route index path="/contact" component={Contact} />
-        </Switch>
+        <Route exact path="/" component={Portfolio} />
+        <Route index path="/home" component={Home} />
+        <Route index path="/about" element={About} />
+        <Route index path="/portfolio" component={Portfolio} />
+        <Route index path="/contact" component={Contact} />
+
         <Footer />
       </Wrapper>
     </Router>
