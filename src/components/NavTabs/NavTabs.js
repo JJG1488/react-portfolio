@@ -77,13 +77,13 @@ function NavTabs() {
             <Nav.Link as={Link} to="/contact">
               <span id="nav-link-text">Contact</span>
             </Nav.Link>
-            <Nav.Link
+            {/* <Nav.Link
               href="https://1drv.ms/w/s!AoCauJZ3EHFdgwMB4s6gnDG-WQOe"
               rel="noreferrer"
               target="_blank"
             >
               <span id="nav-link-text">Resume</span>
-            </Nav.Link>
+            </Nav.Link> */}
           </Nav>
         </Navbar.Collapse>
       </Navbar>

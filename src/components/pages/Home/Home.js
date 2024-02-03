@@ -4,16 +4,21 @@ import "./styles.css";
 import { Link } from "react-router-dom";
 
 const Home = () => (
-
   <div className="container">
     <div className="row">
       <div className="col-md-6">
         <picture>
-          <img src={imageDataCertificate} id="imageDataCertificate" alt="full-stack-web-dev-certificate-from-Michigan-State-University" />
+          <img
+            src={imageDataCertificate}
+            id="imageDataCertificate"
+            alt="full-stack-web-dev-certificate-from-Michigan-State-University"
+          />
         </picture>
         <div className="container" id="data-text">
           <hr></hr>
-          <h6>Technologies Covered/Used: <br></br></h6>
+          <h6>
+            Technologies Covered/Used: <br></br>
+          </h6>
           <hr></hr>
           <div className="row">
             <div className="col">
@@ -21,6 +26,7 @@ const Home = () => (
                 <li>HTML</li>
                 <li>CSS</li>
                 <li>JavaScript</li>
+                <li>C#</li>
                 <li>jQUERY</li>
                 <li>Bootstrap</li>
                 <li>SEO</li>
@@ -35,6 +41,7 @@ const Home = () => (
             </div>
             <div className="col">
               <ul>
+                <li>Azure</li>
                 <li>GitHub</li>
                 <li>MySQL</li>
                 <li>MongoDB</li>
@@ -48,19 +55,19 @@ const Home = () => (
                 <li>User Authentication</li>
                 <li>ORM (Object-relational mapping)</li>
                 <li>Design Patterns</li>
+                <li>.Net Core</li>
               </ul>
             </div>
             <div>
-              Language Certifications Pending: C#, Python(Currently using in school)
               <hr></hr>
-              AAS Web Programming: <br></br> 2023
+              Degree in AAS Web Programming: <br></br>
               <hr></hr>
             </div>
           </div>
         </div>
         {/* Thank you! Why am I saying thank you? You have taken time out of your busy schedule to have a look at my portfolio's home page. You could be reading anything in the world, yet, you've chosen to spend time looking through some of my material and I'm grateful. Please, if inspired by curiosity from any aspect of viewing my content, you can see more of my work via the github link on my contacts page. If you are looking for a direct (fast) response, the best place to reach me is linkedin. That link is also on my contact page. Good day to you and I hope that you find something that you like. */}
       </div>
-      <div className="col">
+      {/* <div className="col">
         <h1>Hello, I'm James</h1>
         <div style={{ marginTop: "10%", marginBottom: "15%" }}>
           <span>
@@ -96,7 +103,7 @@ const Home = () => (
           </span>
         </div>
         <Link to="/portfolio"><button type="button" class="btn btn-primary btn-lg" id="big-btn">See My Projects</button></Link>
-      </div>
+      </div> */}
     </div>
   </div>
 );

@@ -7,12 +7,12 @@ const Contact = () => (
       {/* <div className="row">
         <div className="col"> */}
       <span className="contact-info">
-        Name: James J. Gault
+        Name: James Gault
         <br />
         Email:
-        <a href="mailto:jamesgault1488@gmail.com=My custom mail body">
+        <a href="mailto:jgservicesllc14@gmail.com=My custom mail body">
           {" "}
-          jamesgault1488@gmail.com
+          jgservicesllc14@gmail.com
         </a>
         <br />
         <a href="https://www.linkedin.com/in/jamesgault1488">
@@ -27,13 +27,13 @@ const Contact = () => (
           <i className="fa fa-github" aria-hidden="true"></i>
         </a>
         <br />
-        <a href="https://twitter.com/JamesJGault">
+        {/* <a href="https://twitter.com/JamesJGault">
           {" "}
           <span id="social-link-data"> Twitter: </span>{" "}
           <i className="fa fa-twitter-square" aria-hidden="true"></i>
-        </a>
+        </a> */}
         <br />
-        <a
+        {/* <a
           href="https://1drv.ms/w/s!AoCauJZ3EHFdgwMB4s6gnDG-WQOe"
           rel="noreferrer"
           target="_blank"
@@ -41,9 +41,9 @@ const Contact = () => (
           {" "}
           <span id="social-link-data">Open Resume in a PDF File </span>{" "}
           <i className="fa fa-download" aria-hidden="true"></i>
-        </a>
+        </a> */}
         <br />
-        Phone: 586-229-6418
+        Phone: 586-571-0600
       </span>
     </div>
   </div>

@@ -1,6 +1,6 @@
 import React from "react";
 import wannaBurger from "../../data/Assets/Images/wannaBurger.png";
-import workdayScheduler from "../../data/Assets/Images/workday-scheduler copy.png";
+//import workdayScheduler from "../../data/Assets/Images/workday-scheduler copy.png";
 // import weatherDashboard from "../../data/Assets/Images/weather-dashboard.png";
 import passwordGen from "../../data/Assets/Images/password-gen-screenshot copy.png";
 import offlineTracker from "../../data/Assets/Images/offline-tracker.png";
@@ -11,10 +11,33 @@ import basicwebpages from "../../data/Assets/Images/basicwebprogramming.png";
 import solanablockchain from "../../data/Assets/Images/solanablockchain.png";
 import "./styles.css";
 
-const Portfolio = () => (
+const Portfolio = (props) => (
   <div className="main-portfolio-container">
     <div className="container" id="project-container-data">
       <br></br>
+
+      <br></br>
+
+      <div>
+        <picture>
+          <img src={basicwebpages} id="project-photo" alt="" />
+        </picture>
+
+        <br></br>
+        <span>
+          <p>
+            Technologies Used: HTML, CSS, JavaScript. This webpage displays
+            static web pages. : &nbsp;{" "}
+            <a
+              href="https://gaultj978.macombserver.net/itwp1000/home.htm"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Live Site
+            </a>
+          </p>
+        </span>
+      </div>
 
       <div>
         <picture>
@@ -29,7 +52,11 @@ const Portfolio = () => (
         <br />
         <p>
           Technologies Used: SASS, JS, CSS, Webfonts : &nbsp;
-          <a href="https://gaultj978.macombserver.net/itwp1000/project3/html5up-solid-state/index.html">
+          <a
+            href="https://gaultj978.macombserver.net/itwp1000/project3/html5up-solid-state/index.html"
+            target="_blank"
+            rel="noreferrer"
+          >
             Live Site
           </a>
         </p>
@@ -49,7 +76,13 @@ const Portfolio = () => (
         <br />
         <p>
           Technologies Used: React, Redux, Axios, Express, MongoDB : &nbsp;
-          <a href="https://github.com/JJG1488/ProShopMaster.git">GitHub</a>
+          <a
+            href="https://github.com/JJG1488/ProShopMaster.git"
+            target="_blank"
+            rel="noreferrer"
+          >
+            GitHub
+          </a>
         </p>
       </div>
 
@@ -71,13 +104,13 @@ const Portfolio = () => (
         <p>
           Technologies used: Compression, Express, Mongoose, MongoDB, Service
           Worker, JavaScript : &nbsp;
-          <a
+          {/* <a
             href="https://offline-tracker.herokuapp.com"
             target="_blank"
             rel="noreferrer"
           >
             Live Site
-          </a>
+          </a> */}
         </p>
         <p>
           This application was created to display offline capability by register
@@ -181,13 +214,13 @@ const Portfolio = () => (
             side of the application that the user decides, and based on the side
             selected, the information is stored in the database table and
             displayed to the appropriate column. : &nbsp;{" "}
-            <a
+            {/* <a
               href="https://damp-castle-88848.herokuapp.com/"
               target="_blank"
               rel="noreferrer"
             >
               Live Site
-            </a>
+            </a> */}
             /
             <a
               href="https://github.com/JJG1488/burger.git"
@@ -200,7 +233,7 @@ const Portfolio = () => (
         </span>
       </div>
 
-      <br></br>
+      {/* <br></br>
 
       <div>
         <picture>
@@ -224,30 +257,7 @@ const Portfolio = () => (
             </a>
           </p>
         </span>
-      </div>
-
-      <br></br>
-
-      <div>
-        <picture>
-          <img src={basicwebpages} id="project-photo" alt="" />
-        </picture>
-
-        <br></br>
-        <span>
-          <p>
-            Technologies Used: HTML, CSS, JavaScript. This webpage displays
-            static web pages. : &nbsp;{" "}
-            <a
-              href="https://gaultj978.macombserver.net/itwp1000/home.htm"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Live Site
-            </a>
-          </p>
-        </span>
-      </div>
+      </div> */}
 
       <br></br>
 
