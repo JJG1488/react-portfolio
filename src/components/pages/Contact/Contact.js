@@ -1,53 +1,80 @@
 import React from "react";
-import "./styles.css";
+import Button from "react-bootstrap/Button";
+import Card from "react-bootstrap/Card";
 
 const Contact = () => (
   <div>
     <div className="contact-container">
-      {/* <div className="row">
+      <div className="container" id="project-container-data">
+        {/* <div className="row">
         <div className="col"> */}
-      <span className="contact-info">
-        Name: James Gault
-        <br />
-        Email:
-        <a href="mailto:jgservicesllc14@gmail.com=My custom mail body">
-          {" "}
-          jgservicesllc14@gmail.com
-        </a>
-        <br />
-        <a href="https://www.linkedin.com/in/jamesgault1488">
-          {" "}
-          <span id="social-link-data">LinkedIn: </span>{" "}
-          <i className="fa fa-linkedin" aria-hidden="true"></i>
-        </a>
-        <br />
-        <a href="https://github.com/JJG1488">
-          {" "}
-          <span id="social-link-data">GitHub: </span>{" "}
-          <i className="fa fa-github" aria-hidden="true"></i>
-        </a>
-        <br />
-        {/* <a href="https://twitter.com/JamesJGault">
-          {" "}
-          <span id="social-link-data"> Twitter: </span>{" "}
-          <i className="fa fa-twitter-square" aria-hidden="true"></i>
-        </a> */}
-        <br />
-        {/* <a
-          href="https://1drv.ms/w/s!AoCauJZ3EHFdgwMB4s6gnDG-WQOe"
-          rel="noreferrer"
-          target="_blank"
+
+        <Card
+          style={{ width: "75%", margin: "auto", border: "solid grey 10px" }}
         >
-          {" "}
-          <span id="social-link-data">Open Resume in a PDF File </span>{" "}
-          <i className="fa fa-download" aria-hidden="true"></i>
-        </a> */}
-        <br />
-        Phone: 586-571-0600
-      </span>
+          {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
+          <Card.Body>
+            <Card.Title style={{ textAlign: "center" }}>
+              Contact Card
+            </Card.Title>
+            <Card.Text style={{ textAlign: "center" }}>
+              <div className="row" style={{ margin: "2%" }}>
+                {/* <div className="col">
+                  <p> Phone</p>
+                </div> */}
+                <div className="col">
+                  <Button variant="primary" href="tel:586-571-0600">
+                    {" "}
+                    <span id="social-link-data">Phone: </span>{" "}
+                    <i className="fa fa-phone" aria-hidden="true"></i>
+                  </Button>
+                </div>
+              </div>
+              <div className="row" style={{ margin: "2%" }}>
+                {/* <div className="col">
+                  <p> Email</p>
+                </div> */}
+                <div className="col">
+                  <Button
+                    variant="primary"
+                    href="mailto:jgservicesllc14@gmail.com=My custom mail body"
+                  >
+                    <span id="social-link-data">Email: </span>{" "}
+                    <i className="fa fa-envelope" aria-hidden="true"></i>
+                  </Button>
+                </div>
+              </div>
+              <div className="row" style={{ margin: "2%" }}>
+                {/* <div className="col">
+                  <p> LinkedIn</p>
+                </div> */}
+                <div className="col">
+                  <Button
+                    variant="primary"
+                    href="https://www.linkedin.com/in/jamesgault1488"
+                  >
+                    <span id="social-link-data">LinkedIn: </span>{" "}
+                    <i className="fa fa-linkedin" aria-hidden="true"></i>
+                  </Button>
+                </div>
+              </div>
+              <div className="row" style={{ margin: "2%" }}>
+                {/* <div className="col">
+                  <p> GitHub</p>
+                </div> */}
+                <div className="col">
+                  <Button variant="primary" href="https://github.com/JJG1488">
+                    <span id="social-link-data">GitHub: </span>{" "}
+                    <i className="fa fa-github" aria-hidden="true"></i>
+                  </Button>
+                </div>
+              </div>
+            </Card.Text>
+          </Card.Body>
+        </Card>
+      </div>
     </div>
   </div>
-  //   </div>
   // </div>
 );
 

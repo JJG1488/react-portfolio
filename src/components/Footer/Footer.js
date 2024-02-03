@@ -3,15 +3,11 @@ import "./style.css";
 
 function Footer() {
   return (
-
     <footer className="footer">
-    {/* © 2021 James Gault. All Rights Reserved. */}
-
-        <span className="copyright" id="footer-span">© { new Date().getFullYear() }  James Gault. All Rights Reserved.</span>
-
+      <span className="copyright" id="footer-span">
+        © {new Date().getFullYear()} JG ServicesLLC All Rights Reserved.
+      </span>
     </footer>
-  
-    
   );
 }
 
