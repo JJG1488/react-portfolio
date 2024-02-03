@@ -1,119 +1,136 @@
-/* *, *::before, *::after {
+*, *::before, *::after {
     box-sizing: border-box;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
 header, p, h1, form {
     font-family: 'Nerko One';
-} */
+}
 
-/* header {
+header {
     background-color: rgb(38, 42, 46);
     padding: 2%;
     margin-bottom: 5%;
-} */
-
-/* .container {
-    border-radius: 25% 25% 25% 25%;
-} */
-
-/* p {
-    color: aliceblue;
-} */
-
-/* header .navbar-nav {
-    text-align: right;
-} */
-/* 
-body {
-    background-image: url(./Assets/Images/Abstract-Hexagon-Pattern-Artistic-HD-Wallpaper-Background-Image-20-1536x960.jpg);
-} */
-
-/* body { margin: 0; }
-canvas { width: 100%; height: 100% } */
-
-/* h1 {
-    text-align: center;
-    color: aliceblue;
-} */
-
-/* #dev-photo {
-    float: left;
-    background-image: url(./Assets/Images/electric-man.PNG);
-    display: inline;
 }
 
-#main-picture {
-    display: inline;
-} */
-
-/* .row {
+.container {
     border-radius: 25% 25% 25% 25%;
-} */
+}
 
-/* #dev-photo {
-    border: lightslategrey solid;
-    margin-right: 2%;
-    max-width: 35%;
-    max-height: 35%;
-} */
 
-/* .col-xs-12 {
+header .navbar-nav {
+    text-align: right;
+}
+
+body {
+    background-image: url(./Assets/Images/new-aesthetic-wallpapers-1920x1080-windows-10-1536x864.jpg);
+}
+
+body { margin: 0; }
+canvas { width: 100%; height: 100%; }
+
+h1 {
+    text-align: center;
+    color: aliceblue;
+}
+
+.row {
+    border-radius: 25% 25% 25% 25%;
+}
+
+.col-xs-12 {
     box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255), 0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
     background-color: rgb(38, 42, 46);
     min-height: 500px;
     max-width: 500px;
-} */
+}
 
-/* .contact-col, #reading-photo {
+.contact-col, #reading-photo {
     box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255), 0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
     background-color: rgb(38, 42, 46);
-} */
+}
 
-/* .col img {
+.col img {
     border: lightslategrey;
     height: 95%;
     width: 90%;
-} */
+}
 
-/* #reading-photo {
-    margin-right: 1%;
-    position: relative;
-    max-height: 800px;
-    max-width: 400px;
-    float: right;
-} */
 
-/* #contact-info {
-
-} */
-/* 
-.copyright::before {
+/* .copyright::before {
     color: white;
     content: "©️";
     padding: 2%;
 } */
 
-/* .copyright {
-    color: white;
-} */
-/* 
-footer {
-    clear: both;
+#project-photo {
+    margin: 2% 60% 2% 20%;
+    /* border: solid orange; */
+    width: 50%;
+    height: 50%;
+    padding: 0%;
+  }
+  
+  .container {
+  
+    align-items: center;
+    justify-content: center;
+  }
+
+  .main-portfolio-container {
+    /* border: solid red 10px; */
+    display: flex;
+    width: 100%;
+    margin-top: 10%;
     text-align: center;
-    padding: 1%;
-    margin-bottom: 0%;
-    background-color: rgb(38, 42, 46);
-} */
+    /* grid-template: repeat(2, 1fr) / repeat(1, 1fr); */
+    gap: 5%;
+  }
+  
+/* Home Page */
 
-/* .nav-link {
-    background-color: red;
-}
+#imageDataCertificate {
+   margin-top:20%;
+   width: 100%;
+  }
 
-.navbar {
-    background-color: red;
-} */
+  .container {
 
-/* #reading-photo {
-    float: right;
-} */
+    align-items: center;
+    justify-content: center;
+  }
+
+  #project-photo {
+    margin: 2% 60% 2% 20%;
+    /* border: solid orange; */
+    width: 50%;
+    height: 50%;
+    padding: 0%;
+  }
+
+  #social-link-data {
+    color: black;
+  }
+  
+  .contact-container {
+    /* border: solid red 10px; */
+    display: grid;
+  }
+  
+  .contact-info {
+    /* border: solid green 3px; */
+    display: inline-block;
+    margin: 20% 0;
+    text-align: center;
+  }
+  
+  .wrapper {
+    
+    min-height: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    border: solid white 10px;
+    /* background-color: rgb(38, 42, 46); */
+    
+  }
+  
