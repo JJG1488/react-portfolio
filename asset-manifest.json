@@ -1,8 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.4eb8273c.css",
-    "main.js": "/static/js/main.22b29333.js",
-    "static/media/workday-scheduler copy.png": "/static/media/workday-scheduler copy.5a1b29b555ca48b9413c.png",
+    "main.css": "/static/css/main.32f2cadc.css",
+    "main.js": "/static/js/main.3b7c6887.js",
     "static/media/wannaBurger.png": "/static/media/wannaBurger.09765977482d4e7e4c15.png",
     "static/media/FullStackDevCertificate.png": "/static/media/FullStackDevCertificate.bc96af11da1d9761a57a.png",
     "static/media/fundamentalsofnetworking.png": "/static/media/fundamentalsofnetworking.494bdf1425484af54cf9.png",
@@ -13,11 +12,11 @@
     "static/media/workout.png": "/static/media/workout.f0260344c720c138158a.png",
     "static/media/basicwebprogramming.png": "/static/media/basicwebprogramming.7940dbd50e92dca44d58.png",
     "index.html": "/index.html",
-    "main.4eb8273c.css.map": "/static/css/main.4eb8273c.css.map",
-    "main.22b29333.js.map": "/static/js/main.22b29333.js.map"
+    "main.32f2cadc.css.map": "/static/css/main.32f2cadc.css.map",
+    "main.3b7c6887.js.map": "/static/js/main.3b7c6887.js.map"
   },
   "entrypoints": [
-    "static/css/main.4eb8273c.css",
-    "static/js/main.22b29333.js"
+    "static/css/main.32f2cadc.css",
+    "static/js/main.3b7c6887.js"
   ]
 }
