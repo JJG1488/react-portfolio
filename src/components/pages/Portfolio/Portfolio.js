@@ -26,6 +26,10 @@ const Portfolio = (props) => (
               Technologies Used: HTML, CSS, JavaScript. This webpage displays
               static web pages. : &nbsp;{" "}
             </p>
+            <p>
+              Built to show one or two specific features. Nothing advanced, pure
+              basics.
+            </p>
           </Card.Text>
           <Button
             variant="primary"
@@ -60,7 +64,7 @@ const Portfolio = (props) => (
         <Card.Img variant="top" src={fundamentalsofnetworking} />
         <Card.Body>
           <hr></hr>
-          <Card.Title>Basic Static Webpages</Card.Title>
+          <Card.Title>Static Webpage Example</Card.Title>
           <Card.Text>
             <p>Technologies Used: SASS, JS, CSS, Webfonts :</p>
           </Card.Text>
@@ -81,9 +85,12 @@ const Portfolio = (props) => (
         <Card.Img variant="top" src={proshop} />
         <Card.Body>
           <hr></hr>
-          <Card.Title>Basic Static Webpages</Card.Title>
+          <Card.Title>Proshop React Application</Card.Title>
           <Card.Text>
-            <p>Technologies Used: React, Redux, Axios, Express, MongoDB :</p>
+            <p>
+              Technologies Used: React, Redux, Axios, Express, MongoDB, & much
+              more:
+            </p>
           </Card.Text>
           <Button
             variant="primary"
@@ -103,7 +110,7 @@ const Portfolio = (props) => (
         <Card.Img variant="top" src={offlineTracker} />
         <Card.Body>
           <hr></hr>
-          <Card.Title>Basic Static Webpages</Card.Title>
+          <Card.Title>Budget Tracker</Card.Title>
           <Card.Text>
             <p>
               Technologies used: Compression, Express, Mongoose, MongoDB,
@@ -142,7 +149,7 @@ const Portfolio = (props) => (
         <Card.Img variant="top" src={workout} />
         <Card.Body>
           <hr></hr>
-          <Card.Title>Basic Static Webpages</Card.Title>
+          <Card.Title>Fitness Tracker</Card.Title>
           <Card.Text>
             <p>
               Technologies used: Express, Mongoose, MongoDB, Service Worker,
@@ -166,7 +173,7 @@ const Portfolio = (props) => (
         <Card.Img variant="top" src={solanablockchain} />
         <Card.Body>
           <hr></hr>
-          <Card.Title>Basic Static Webpages</Card.Title>
+          <Card.Title>Blockchain NFT Drop Project</Card.Title>
           <Card.Text>
             <p>Technologies Used: React, JavaScript, Solanablockchain :</p>
             <p>
@@ -192,7 +199,7 @@ const Portfolio = (props) => (
         <Card.Img variant="top" src={wannaBurger} />
         <Card.Body>
           <hr></hr>
-          <Card.Title>Basic Static Webpages</Card.Title>
+          <Card.Title>Database Storage and Retrieval Burger app</Card.Title>
           <Card.Text>
             <p>
               {" "}
@@ -230,15 +237,12 @@ const Portfolio = (props) => (
         <Card.Img variant="top" src={passwordGen} />
         <Card.Body>
           <hr></hr>
-          <Card.Title>Basic Static Webpages</Card.Title>
+          <Card.Title>Random Password Generator</Card.Title>
           <Card.Text>
             <p>
-              Technologies Used: Travis CLI, JavaScript, Passport, Handlebars,
-              ESlint, Compression, MySQL, Sequelize our own personal activity
-              logger. Need a password? No problem! This webpage displays an
-              example of how JavaScript is used to compare different user inputs
-              that can result in different outcomes based on those inputs. :
-              &nbsp;{" "}
+              Need a password? No problem! This webpage displays an example of
+              how JavaScript is used to compare different user inputs that can
+              result in different outcomes based on those inputs. &nbsp;{" "}
             </p>
           </Card.Text>
           {/* <a
