@@ -24,7 +24,7 @@ const Schedule = () => {
       .get(`${APP_URL}/api/availability/google`, {
         params: { date: date.toISOString().split("T")[0] },
         headers: {
-          "Access-Control-Allow-Origin": "www.qualitysites.pro",
+          "Access-Control-Allow-Origin": "*",
         },
       })
       .then((res) => {
