@@ -1,0 +1,57 @@
+.footer {
+  background: white;
+  margin-top: 8%;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  padding: 10px;
+  height: 5%;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+  z-index: 2;
+}
+
+.footer-span {
+  margin-top: 8%;
+  background: white;
+}
+
+#logo {
+  font-family: "Ephesis", cursive;
+}
+
+/* #basic-navbar-nav{
+    float: left;
+    justify-content: left;
+} */
+
+.me-auto,
+#navTabsRow,
+#nav-data {
+  /* background-color: white; */
+}
+
+/* #nav-data {
+    width: 100%;
+
+}
+
+#nav-link-text:hover {
+    color: blue;
+}
+
+.navbar-toggler-icon {
+    margin-right: 20%; 
+}
+
+.navbar {
+    display: block;
+    position: fixed;
+    z-index: 3;
+    top: 0;
+} */
+
+#logo {
+  text-shadow: 1px 2px 2px #1c6ea4;
+}
