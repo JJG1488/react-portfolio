@@ -20,9 +20,16 @@ const Schedule = () => {
   });
 
   useEffect(() => {
-    axios.get(`${APP_URL}/api/availability/google`).then((res) => {
-      setAvailableSlots(res.data.availableSlots);
-    });
+    axios
+      .get(`${APP_URL}/api/availability/google`, {
+        params: { date: date.toISOString().split("T")[0] },
+        headers: {
+          "Access-Control-Allow-Origin": "www.qualitysites.pro",
+        },
+      })
+      .then((res) => {
+        setAvailableSlots(res.data.availableSlots);
+      });
   }, [date, APP_URL]);
 
   const handleChange = (e) => {
