@@ -92,7 +92,7 @@ const Schedule = () => {
 
   return (
     <Container
-      lg={8}
+      lg={12}
       md={6}
       style={{ paddingTop: "100px", paddingBottom: "50px" }}
     >
@@ -112,7 +112,7 @@ const Schedule = () => {
         </Col>
       </Row>
       <Row>
-        <Col lg={6} md={6} className="text-center">
+        <Col lg={12} md={6} className="text-center">
           <Calendar onChange={setDate} value={date} />
         </Col>
       </Row>
