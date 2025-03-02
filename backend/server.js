@@ -193,6 +193,7 @@ app.use(express.json());
 app.use(
   cors({
     origin: "https://www.qualitysites.pro", // Replace with your domain
+    methods: ["GET", "POST"],
     credentials: true,
   })
 );
@@ -334,7 +335,10 @@ app.get("/api/availability/google", async (req, res) => {
     const busySlots =
       response.data.calendars[process.env.GOOGLE_CALENDAR_ID].busy;
     const availableSlots = generateAvailableTimeSlots(busySlots);
-    res.header("Access-Control-Allow-Origin", "https://www.qualitysites.pro");
+    res.header(
+      "Access-Control-Allow-Origin",
+      "https://react-portfolio-6uuf.onrender.com"
+    );
     res.json({ availableSlots });
   } catch (error) {
     console.error("Google Calendar Error:", error);
