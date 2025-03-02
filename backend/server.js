@@ -334,6 +334,7 @@ app.get("/api/availability/google", async (req, res) => {
     const busySlots =
       response.data.calendars[process.env.GOOGLE_CALENDAR_ID].busy;
     const availableSlots = generateAvailableTimeSlots(busySlots);
+    res.header("Access-Control-Allow-Origin", "https://www.qualitysites.pro");
     res.json({ availableSlots });
   } catch (error) {
     console.error("Google Calendar Error:", error);
