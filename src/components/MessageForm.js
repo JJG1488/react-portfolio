@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Form, Button, Alert } from "react-bootstrap";
 
 const MessageForm = () => {
-  const APP_URL = process.env.REACT_APP_PRODUCTION_URL;
+  const APP_URL = process.env.REACT_APP_DEVELOPMENT_URL;
   const [formData, setFormData] = useState({
     name: "",
     email: "",

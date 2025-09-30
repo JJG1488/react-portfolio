@@ -6,7 +6,7 @@ import "react-calendar/dist/Calendar.css";
 // import "./Schedule.css"; // Add custom styles
 
 const Schedule = () => {
-  const APP_URL = process.env.REACT_APP_PRODUCTION_URL;
+  const APP_URL = process.env.REACT_APP_DEVELOPMENT_URL;
   const [date, setDate] = useState(new Date());
   const [availableSlots, setAvailableSlots] = useState([]);
   const [selectedTime, setSelectedTime] = useState("");
@@ -20,9 +20,16 @@ const Schedule = () => {
   });
 
   useEffect(() => {
-    axios.get(`${APP_URL}/api/availability/google`).then((res) => {
-      setAvailableSlots(res.data.availableSlots);
-    });
+    axios
+      .get(`${APP_URL}/api/availability/google`, {
+        params: { date: date.toISOString().split("T")[0] },
+        headers: {
+          "Access-Control-Allow-Origin": "www.qualitysites.pro",
+        },
+      })
+      .then((res) => {
+        setAvailableSlots(res.data.availableSlots);
+      });
   }, [date, APP_URL]);
 
   const handleChange = (e) => {
@@ -112,13 +119,13 @@ const Schedule = () => {
         </Col>
       </Row>
       <Row>
-        <Col lg={12} md={6} className="text-center">
+        <Col lg={8} md={6} className="text-center">
           <Calendar onChange={setDate} value={date} />
         </Col>
       </Row>
 
       <Row>
-        <Col lg={12} md={6} className="text-center">
+        <Col lg={8} md={6} className="text-center">
           <Form onSubmit={handleBooking} className="booking-form">
             <Form.Control
               type="text"

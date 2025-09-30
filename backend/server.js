@@ -190,13 +190,7 @@ const nodemailer = require("nodemailer");
 const app = express();
 const PORT = process.env.PORT || 5000;
 app.use(express.json());
-app.use(
-  cors({
-    origin: "https://www.qualitysites.pro", // Replace with your domain
-    methods: ["GET", "POST"],
-    credentials: true,
-  })
-);
+app.use(cors());
 
 // Twilio Setup
 const twilioClient = twilio(
@@ -451,16 +445,7 @@ app.post("/api/schedule", async (req, res) => {
 
 // Helper function to generate available slots
 function generateAvailableTimeSlots(busySlots) {
-  const allSlots = [
-    "8:00am",
-    "9:00am",
-    "10:00am",
-    "11:00am",
-    "1:00pm",
-    "2:00pm",
-    "3:00pm",
-    "4:00pm",
-  ];
+  const allSlots = ["09:00", "10:00", "11:00", "01:00", "02:00", "03:00"];
   return allSlots.filter(
     (slot) => !busySlots.some((busy) => busy.start.includes(slot))
   );
