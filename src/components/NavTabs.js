@@ -12,10 +12,16 @@ function NavTabs() {
       variant="light"
       expand="md"
       id="nav-data"
-      style={{ position: "fixed", zIndex: 1, width: "100vw", top: "0", left: "0" }}
+      style={{
+        position: "fixed",
+        zIndex: 1,
+        width: "100vw",
+        top: "0",
+        left: "0",
+      }}
       expanded={expanded}
     >
-      <Navbar.Brand href="home">
+      <Navbar.Brand href="/">
         <span id="logo"> JGServicesLLC </span>
       </Navbar.Brand>
       <Navbar.Toggle
