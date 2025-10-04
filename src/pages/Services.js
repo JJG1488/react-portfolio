@@ -50,7 +50,7 @@ const Services = () => {
           <Card>
             <Card.Img
               variant="top"
-              src="../../Assets/Images/portfolio_seo_optimization.png"
+              src="../../Assets/Images/portfolio_SEO_Optimization.png"
             />
             <Card.Body>
               <Card.Title>SEO Optimization</Card.Title>
