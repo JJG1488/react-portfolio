@@ -31,7 +31,7 @@ const Home = () => {
           <Row>
             <Col md={4} className="text-center">
               <img
-                src="/Assets/Images/Abstract-Hexagon-Pattern-Artistic-HD-Wallpaper-Background-Image-20-1536x960.jpg"
+                src="/Assets/Images/portfolio_idea_generation.png"
                 alt="Idea Generation"
                 className="img-fluid mb-3"
               />
@@ -43,7 +43,7 @@ const Home = () => {
             </Col>
             <Col md={4} className="text-center">
               <img
-                src="/Assets/Images/Abstract-Hexagon-Pattern-Artistic-HD-Wallpaper-Background-Image-20-1536x960.jpg"
+                src="/Assets/Images/portfolio_design_and_development.png"
                 alt="Design & Development"
                 className="img-fluid mb-3"
               />
@@ -55,7 +55,7 @@ const Home = () => {
             </Col>
             <Col md={4} className="text-center">
               <img
-                src="/Assets/Images/Abstract-Hexagon-Pattern-Artistic-HD-Wallpaper-Background-Image-20-1536x960.jpg"
+                src="/Assets/Images/portoflio_launch_and_support.png"
                 alt="Launch & Support"
                 className="img-fluid mb-3"
               />
@@ -75,7 +75,7 @@ const Home = () => {
           <Row className="align-items-center">
             <Col md={6}>
               <img
-                src="/Assets/Images/Abstract-Hexagon-Pattern-Artistic-HD-Wallpaper-Background-Image-20-1536x960.jpg"
+                src="/Assets/Images/portfolio_custom_web_development.png"
                 alt="Web Development In Action"
                 className="img-fluid"
               />

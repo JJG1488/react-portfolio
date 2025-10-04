@@ -10,12 +10,12 @@ const Services = () => {
         vision.
       </p>
       {/* <Row className="mt-5"> */}
-        <Row>
+      <Row>
         <Col md={4}>
           <Card>
             <Card.Img
               variant="top"
-              src="../../Assets/Images/Abstract-Hexagon-Pattern-Artistic-HD-Wallpaper-Background-Image-20-1536x960.jpg"
+              src="../../Assets/Images/portfolio_responsive_design.png"
             />
             <Card.Body>
               <Card.Title>Responsive Design</Card.Title>
@@ -32,7 +32,7 @@ const Services = () => {
           <Card>
             <Card.Img
               variant="top"
-              src="../../Assets/Images/Abstract-Hexagon-Pattern-Artistic-HD-Wallpaper-Background-Image-20-1536x960.jpg"
+              src="../../Assets/Images/portfolio_custom_development.png"
             />
             <Card.Body>
               <Card.Title>Custom Development</Card.Title>
@@ -50,7 +50,7 @@ const Services = () => {
           <Card>
             <Card.Img
               variant="top"
-              src="../../Assets/Images/Abstract-Hexagon-Pattern-Artistic-HD-Wallpaper-Background-Image-20-1536x960.jpg"
+              src="../../Assets/Images/portfolio_seo_optimization.png"
             />
             <Card.Body>
               <Card.Title>SEO Optimization</Card.Title>
